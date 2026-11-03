@@ -1,0 +1,16 @@
+[
+  {
+    "cohort": "acs",
+    "clinical_values_outcomes_missingness_exactly_preserved": true,
+    "group_equivalence_preserved": true,
+    "source_row_removed": true,
+    "public_csv_sha256": "a13feccde94f6b7725f0b5664002fe53780ff015a7b266f19cd238f0d1f44200"
+  },
+  {
+    "cohort": "vascular",
+    "clinical_values_outcomes_missingness_exactly_preserved": true,
+    "group_equivalence_preserved": true,
+    "source_row_removed": true,
+    "public_csv_sha256": "f1820b78f901ad547cf9aecbdbace794be879c304bb38ba25ebdbacf70bdeead"
+  }
+]

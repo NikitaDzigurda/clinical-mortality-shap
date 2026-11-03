@@ -1,0 +1,1554 @@
+{
+  "export_date": "2026-11-03",
+  "cohorts": [
+    "acs",
+    "vascular"
+  ],
+  "files": [
+    {
+      "cohort": "acs",
+      "source_file": "02_final_config.json",
+      "export_file": "results/acs/02_final_config.json",
+      "original_sha256": "ce6d8841e4c39b84484584bd782b3d78dafc623c6ca8b1faff41197f601997c1",
+      "export_sha256": "ce6d8841e4c39b84484584bd782b3d78dafc623c6ca8b1faff41197f601997c1",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_final_model.joblib",
+      "export_file": "results/acs/02_final_model.joblib",
+      "original_sha256": "c061a5ff4afec762c3a93761f173e39b385f00d2beea7e0a81101abc1d822c37",
+      "export_sha256": "c061a5ff4afec762c3a93761f173e39b385f00d2beea7e0a81101abc1d822c37",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_oof_predictions.csv",
+      "export_file": "results/acs/02_oof_predictions.csv",
+      "original_sha256": "35d9460e67cb33805737ec4cda92c8cd6dd2f31761ca5c477aa5c308954e97a4",
+      "export_sha256": "f71aa7625b69a28fba4164a8e476a3d5a75e0ddffa4f875894bb4634d203c1bf",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_trials.csv",
+      "export_file": "results/acs/02_trials.csv",
+      "original_sha256": "5f98ef1cdb3a0238079ab24460aeaded0f8739e06a3708995b49ff3dc58b0f08",
+      "export_sha256": "5f98ef1cdb3a0238079ab24460aeaded0f8739e06a3708995b49ff3dc58b0f08",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_аудит_балансировки.csv",
+      "export_file": "results/acs/02_аудит_балансировки.csv",
+      "original_sha256": "08cd9e6c20b05bb5e5cdf1f69f07245c9bce588f630efc68fb621af2d709aa2b",
+      "export_sha256": "08cd9e6c20b05bb5e5cdf1f69f07245c9bce588f630efc68fb621af2d709aa2b",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_внешние_разбиения.csv",
+      "export_file": "results/acs/02_внешние_разбиения.csv",
+      "original_sha256": "cc3d077684e0a1942442341c62da39b6104dc98e5dcf93ac3fb3c8c55f14e501",
+      "export_sha256": "b5a0dfb522712c9105d6a65663b23ba01c7a3f2dd8a48c83a9fbd1f481040db8",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_внутренние_разбиения.csv",
+      "export_file": "results/acs/02_внутренние_разбиения.csv",
+      "original_sha256": "6675aaeed2b1764f947170c3a06d6bbd37c3e912438018a204905ecf9556a309",
+      "export_sha256": "00570a6dbc71d4069bd343b87a65fda48c4f553acfbd40afe733e1b6474c46ca",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка.csv",
+      "export_file": "results/acs/02_калибровка.csv",
+      "original_sha256": "b0cd72e3fe9e5a68f6675b77e60351478a363e3c4f0cdb2817e29b835c3f0615",
+      "export_sha256": "b0cd72e3fe9e5a68f6675b77e60351478a363e3c4f0cdb2817e29b835c3f0615",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_CatBoost.png",
+      "export_file": "results/acs/02_калибровка_CatBoost.png",
+      "original_sha256": "d93421563cb8d3b614a1210caff46290b4fa29d454cd75ec945bd63de68e04db",
+      "export_sha256": "d93421563cb8d3b614a1210caff46290b4fa29d454cd75ec945bd63de68e04db",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_CatBoost.svg",
+      "export_file": "results/acs/02_калибровка_CatBoost.svg",
+      "original_sha256": "cc81f3ba0cfc2599f99decdfb0a62cebf2c06ba97a9fb94dc8921f2022379bba",
+      "export_sha256": "cc81f3ba0cfc2599f99decdfb0a62cebf2c06ba97a9fb94dc8921f2022379bba",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_LR.png",
+      "export_file": "results/acs/02_калибровка_LR.png",
+      "original_sha256": "a50de1cf433c207eae43fb48f5b050df37a5e88f6a454359e6d5be0a11ac180e",
+      "export_sha256": "a50de1cf433c207eae43fb48f5b050df37a5e88f6a454359e6d5be0a11ac180e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_LR.svg",
+      "export_file": "results/acs/02_калибровка_LR.svg",
+      "original_sha256": "4acd81fb07592621eccf2e552367912fcf1ef993f73f768ed66eec9bd67a3cd2",
+      "export_sha256": "4acd81fb07592621eccf2e552367912fcf1ef993f73f768ed66eec9bd67a3cd2",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_RF.png",
+      "export_file": "results/acs/02_калибровка_RF.png",
+      "original_sha256": "ba0bf2d81aa2712d309ff5d37bc7417d6729ddddb5bd4dac21282267833caffb",
+      "export_sha256": "ba0bf2d81aa2712d309ff5d37bc7417d6729ddddb5bd4dac21282267833caffb",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_RF.svg",
+      "export_file": "results/acs/02_калибровка_RF.svg",
+      "original_sha256": "b9aa7f4caed6d311100d1dc12a81f11f3c9a0b8803de4cec58c845e0e965cbef",
+      "export_sha256": "b9aa7f4caed6d311100d1dc12a81f11f3c9a0b8803de4cec58c845e0e965cbef",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_XGBoost.png",
+      "export_file": "results/acs/02_калибровка_XGBoost.png",
+      "original_sha256": "303b26dbe3910c2d8218b7d90887ebf21811e7511e236f6957655a1afbb97451",
+      "export_sha256": "303b26dbe3910c2d8218b7d90887ebf21811e7511e236f6957655a1afbb97451",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_калибровка_XGBoost.svg",
+      "export_file": "results/acs/02_калибровка_XGBoost.svg",
+      "original_sha256": "20093f69dee8bd9134ce845d065ff729540e27d100bfa22cf7cd43da53859f28",
+      "export_sha256": "20093f69dee8bd9134ce845d065ff729540e27d100bfa22cf7cd43da53859f28",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_качество_и_калибровка.png",
+      "export_file": "results/acs/02_качество_и_калибровка.png",
+      "original_sha256": "35b6f64d1d55a1266b1a1a07adef63e1f76c8b1c9be0fef72b3dbb97aa831f71",
+      "export_sha256": "35b6f64d1d55a1266b1a1a07adef63e1f76c8b1c9be0fef72b3dbb97aa831f71",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_качество_и_калибровка.svg",
+      "export_file": "results/acs/02_качество_и_калибровка.svg",
+      "original_sha256": "f5989bb19a9a05037d38de741cae52d3acb01cb57e049035fb5a2bd842ebe236",
+      "export_sha256": "f5989bb19a9a05037d38de741cae52d3acb01cb57e049035fb5a2bd842ebe236",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_метрики_блоков.csv",
+      "export_file": "results/acs/02_метрики_блоков.csv",
+      "original_sha256": "19e72848aa451d9ce17313912c9d804dd79f9cc47bc524ce39ae682c4ad6bb32",
+      "export_sha256": "19e72848aa451d9ce17313912c9d804dd79f9cc47bc524ce39ae682c4ad6bb32",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_метрики_повторений.csv",
+      "export_file": "results/acs/02_метрики_повторений.csv",
+      "original_sha256": "6bcbe490efce3c8784981390bb8695e607a354d729d277c525673efc9f0d7317",
+      "export_sha256": "6bcbe490efce3c8784981390bb8695e607a354d729d277c525673efc9f0d7317",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_парные_изменения.csv",
+      "export_file": "results/acs/02_парные_изменения.csv",
+      "original_sha256": "7c45dc00f99997161bf4282f8747f8638c90d0dc7076a635f3443991409c862d",
+      "export_sha256": "7c45dc00f99997161bf4282f8747f8638c90d0dc7076a635f3443991409c862d",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_парные_изменения_блоков.csv",
+      "export_file": "results/acs/02_парные_изменения_блоков.csv",
+      "original_sha256": "2eef1bad446cd8aa11a134c2e708b930fd08a87475545e0cbf6587b9c2d02dbb",
+      "export_sha256": "2eef1bad446cd8aa11a134c2e708b930fd08a87475545e0cbf6587b9c2d02dbb",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_проверка_состава_признаков.csv",
+      "export_file": "results/acs/02_проверка_состава_признаков.csv",
+      "original_sha256": "5f564cc6fd70512e27f97d8e5b8d4eac73140b480b0e6b98778ef82f58cd22c4",
+      "export_sha256": "5f564cc6fd70512e27f97d8e5b8d4eac73140b480b0e6b98778ef82f58cd22c4",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_происхождение_результатов.json",
+      "export_file": "results/acs/02_происхождение_результатов.json",
+      "original_sha256": "bf44697ed336d8fe91977b11e70710bd3e9b8c15c8735d71cd27b5828c23c153",
+      "export_sha256": "bf44697ed336d8fe91977b11e70710bd3e9b8c15c8735d71cd27b5828c23c153",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_протокол.json",
+      "export_file": "results/acs/02_протокол.json",
+      "original_sha256": "d478a50c49e0a9921a7069391e38500f6b2267b610fef29bfd5bdb46c9d5ffb8",
+      "export_sha256": "d478a50c49e0a9921a7069391e38500f6b2267b610fef29bfd5bdb46c9d5ffb8",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_результаты_поиска.json",
+      "export_file": "results/acs/02_результаты_поиска.json",
+      "original_sha256": "c1dad06e13783dd2ef84b09ce38065526166577eb4e53959f4cf97ab80baba59",
+      "export_sha256": "c1dad06e13783dd2ef84b09ce38065526166577eb4e53959f4cf97ab80baba59",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_сравнение_моделей.csv",
+      "export_file": "results/acs/02_сравнение_моделей.csv",
+      "original_sha256": "badb4332cbbad4dd37b654b1c7620d550563ec7116ef72c4d5fc1cbac7030408",
+      "export_sha256": "badb4332cbbad4dd37b654b1c7620d550563ec7116ef72c4d5fc1cbac7030408",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_техническая_проверка.json",
+      "export_file": "results/acs/02_техническая_проверка.json",
+      "original_sha256": "ca706f48df1560c523ab02870d1cb73922ff259ce8d0a0a806d32cbd03428f50",
+      "export_sha256": "ca706f48df1560c523ab02870d1cb73922ff259ce8d0a0a806d32cbd03428f50",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_bootstrap_CI.csv",
+      "export_file": "results/acs/02_условные_bootstrap_CI.csv",
+      "original_sha256": "302c0a66bdf552fb0dbc199463c96f5da69f1523df2ab1a7eac25d3559def287",
+      "export_sha256": "302c0a66bdf552fb0dbc199463c96f5da69f1523df2ab1a7eac25d3559def287",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_oof.csv",
+      "export_file": "results/acs/02_условные_oof.csv",
+      "original_sha256": "37505e570e3edd9003209eaf46c0257a0a1d3f8ba678eed8750f8e410ed3ff4a",
+      "export_sha256": "fe71d81a3c66458df66b8f3814e02df05ab50398d415f3110e1f83bdbaf7de65",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_конфигурации.json",
+      "export_file": "results/acs/02_условные_конфигурации.json",
+      "original_sha256": "60be1cc76dba7cfe3dae91c9094853bcd5fff999b058949f2933ef77a0d9202a",
+      "export_sha256": "60be1cc76dba7cfe3dae91c9094853bcd5fff999b058949f2933ef77a0d9202a",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_метрики_блоков.csv",
+      "export_file": "results/acs/02_условные_метрики_блоков.csv",
+      "original_sha256": "e1f66ef251cd13173a80a97e961f91474d50e6a6187ca69dce5fe52932869bda",
+      "export_sha256": "e1f66ef251cd13173a80a97e961f91474d50e6a6187ca69dce5fe52932869bda",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_метрики_повторений.csv",
+      "export_file": "results/acs/02_условные_метрики_повторений.csv",
+      "original_sha256": "b0369d3d9c44407a6442c067c38416c694a4218e3b6119d8c15cf6e787b1bc11",
+      "export_sha256": "b0369d3d9c44407a6442c067c38416c694a4218e3b6119d8c15cf6e787b1bc11",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_сравнения.csv",
+      "export_file": "results/acs/02_условные_сравнения.csv",
+      "original_sha256": "d4a95e4215895c9e6c95a18912a89ae4337051f5aabd3590f5a04b7bc33aa1e8",
+      "export_sha256": "d4a95e4215895c9e6c95a18912a89ae4337051f5aabd3590f5a04b7bc33aa1e8",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_эксперименты.png",
+      "export_file": "results/acs/02_условные_эксперименты.png",
+      "original_sha256": "ddd7b41f7e87e67fa83e73ad427835276fcd870f3c1cf864fb7b60fd8889fc84",
+      "export_sha256": "ddd7b41f7e87e67fa83e73ad427835276fcd870f3c1cf864fb7b60fd8889fc84",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_условные_эксперименты.svg",
+      "export_file": "results/acs/02_условные_эксперименты.svg",
+      "original_sha256": "eefde58ca16c7d6611a6cd7a8b4b31e2d688e1c6768417ac94a246e8d98d97b2",
+      "export_sha256": "eefde58ca16c7d6611a6cd7a8b4b31e2d688e1c6768417ac94a246e8d98d97b2",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_GRACE_и_тип_ОКС.csv",
+      "export_file": "results/acs/03_GRACE_и_тип_ОКС.csv",
+      "original_sha256": "669a1fc8d8e97ba08595ab7693de9827f40e8b826d3dbf2c3dd915b8baf8225d",
+      "export_sha256": "669a1fc8d8e97ba08595ab7693de9827f40e8b826d3dbf2c3dd915b8baf8225d",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_bar.png",
+      "export_file": "results/acs/03_SHAP_bar.png",
+      "original_sha256": "4648dbfd0d9e9bc9686afef3a39b9bfd363dc21b9b398d0a5b2ea2302b4283f1",
+      "export_sha256": "4648dbfd0d9e9bc9686afef3a39b9bfd363dc21b9b398d0a5b2ea2302b4283f1",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_bar.svg",
+      "export_file": "results/acs/03_SHAP_bar.svg",
+      "original_sha256": "6bbe776dd0709134de91d3b91dc8d221e9e5e15731e4edaef07b5c0004cb64cb",
+      "export_sha256": "6bbe776dd0709134de91d3b91dc8d221e9e5e15731e4edaef07b5c0004cb64cb",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_beeswarm.png",
+      "export_file": "results/acs/03_SHAP_beeswarm.png",
+      "original_sha256": "82874ffce02037543f82cb44b3733d30278e934219f21cbf304bbcc082f1aab6",
+      "export_sha256": "82874ffce02037543f82cb44b3733d30278e934219f21cbf304bbcc082f1aab6",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_beeswarm.svg",
+      "export_file": "results/acs/03_SHAP_beeswarm.svg",
+      "original_sha256": "a430009ed148b7453afa354f456f8488e09f9311553a2794be7a651f0dc5c36f",
+      "export_sha256": "a430009ed148b7453afa354f456f8488e09f9311553a2794be7a651f0dc5c36f",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_клинические_группы.npz",
+      "export_file": "results/acs/03_SHAP_клинические_группы.npz",
+      "original_sha256": "47a3256d539ad6ca73e835f1dc177e79a9acd362da257789e3caddf5bbf41be4",
+      "export_sha256": "47a3256d539ad6ca73e835f1dc177e79a9acd362da257789e3caddf5bbf41be4",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_background_счетчики_деревьев.npz",
+      "export_file": "results/acs/03_background_счетчики_деревьев.npz",
+      "original_sha256": "af966aa214c3c8cea34f8d852d40070863b57f960991f923a7b7f0b413f47332",
+      "export_sha256": "af966aa214c3c8cea34f8d852d40070863b57f960991f923a7b7f0b413f47332",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_mapping_признаков.csv",
+      "export_file": "results/acs/03_mapping_признаков.csv",
+      "original_sha256": "1da473354b06e036ad75a36afbbde0a8626e6aa7b135bce56b517239c7e37f46",
+      "export_sha256": "1da473354b06e036ad75a36afbbde0a8626e6aa7b135bce56b517239c7e37f46",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_selector_матрицы_ошибок.png",
+      "export_file": "results/acs/03_selector_матрицы_ошибок.png",
+      "original_sha256": "7c109c5ebdb79b73fc292bf980b1b21238226030d20df0f08b54ae4a9f3efc19",
+      "export_sha256": "7c109c5ebdb79b73fc292bf980b1b21238226030d20df0f08b54ae4a9f3efc19",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_selector_матрицы_ошибок.svg",
+      "export_file": "results/acs/03_selector_матрицы_ошибок.svg",
+      "original_sha256": "e7134ae22a2b4836ded4b091e8e6e9c4072f1c86ef00203bf6917f3b96254563",
+      "export_sha256": "e7134ae22a2b4836ded4b091e8e6e9c4072f1c86ef00203bf6917f3b96254563",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_shap_values.npz",
+      "export_file": "results/acs/03_shap_values.npz",
+      "original_sha256": "c3eb6a3e5084fd3463b614d066243e78b4475e846a9b700ce7afac773aac044e",
+      "export_sha256": "1005795a76872e842ba5265a1674a0059653341d40b231ee5abcc1187dae13c8",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_0.png",
+      "export_file": "results/acs/03_waterfall_0.png",
+      "original_sha256": "9906ea00043b8798e4230e8e831817ad5b34721cb14bfb7e2e5be306e7b64c93",
+      "export_sha256": "9906ea00043b8798e4230e8e831817ad5b34721cb14bfb7e2e5be306e7b64c93",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_0.svg",
+      "export_file": "results/acs/03_waterfall_0.svg",
+      "original_sha256": "ab5c16a7a1ddd9d4e8299acd48a7118aef31f051b89e5c43473026df4e8c60de",
+      "export_sha256": "ab5c16a7a1ddd9d4e8299acd48a7118aef31f051b89e5c43473026df4e8c60de",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_21.png",
+      "export_file": "results/acs/03_waterfall_21.png",
+      "original_sha256": "f99276020f11f0663db97627c7deeb16c6cda64f81f646647a96012bdb86ebaf",
+      "export_sha256": "f99276020f11f0663db97627c7deeb16c6cda64f81f646647a96012bdb86ebaf",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_21.svg",
+      "export_file": "results/acs/03_waterfall_21.svg",
+      "original_sha256": "200cf70623c96c7794682b15145ba1a396ecc55173964c2e7d9375abeb0b0e7e",
+      "export_sha256": "200cf70623c96c7794682b15145ba1a396ecc55173964c2e7d9375abeb0b0e7e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_27.png",
+      "export_file": "results/acs/03_waterfall_27.png",
+      "original_sha256": "1a6b2106e4c689bdda8f000d05f5f48b066108fdb250c5f27acd56df7697b404",
+      "export_sha256": "1a6b2106e4c689bdda8f000d05f5f48b066108fdb250c5f27acd56df7697b404",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_27.svg",
+      "export_file": "results/acs/03_waterfall_27.svg",
+      "original_sha256": "d99f7eff60bf2c2a0d72734cac2b0cb62b1d9859243de45fc4e4561e59d2d6ac",
+      "export_sha256": "d99f7eff60bf2c2a0d72734cac2b0cb62b1d9859243de45fc4e4561e59d2d6ac",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_283.png",
+      "export_file": "results/acs/03_waterfall_283.png",
+      "original_sha256": "c88aaf34c6798ca2fadfdd4ff66c388fdf41ea67ea5817b8f5ed8fc1a97708eb",
+      "export_sha256": "c88aaf34c6798ca2fadfdd4ff66c388fdf41ea67ea5817b8f5ed8fc1a97708eb",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_283.svg",
+      "export_file": "results/acs/03_waterfall_283.svg",
+      "original_sha256": "f872d02e4581b8944768569fa642823d2c1cb8d571ef46d988d605edc0f20fad",
+      "export_sha256": "f872d02e4581b8944768569fa642823d2c1cb8d571ef46d988d605edc0f20fad",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_736.png",
+      "export_file": "results/acs/03_waterfall_736.png",
+      "original_sha256": "fb491e71223bed50682780b4249b120f481298c6d687b8de1437014e62433579",
+      "export_sha256": "fb491e71223bed50682780b4249b120f481298c6d687b8de1437014e62433579",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_waterfall_736.svg",
+      "export_file": "results/acs/03_waterfall_736.svg",
+      "original_sha256": "13766b6987ced0db129f7e76a0f2756f8cb1c84c33f27ffa806dbc1f5bb08f15",
+      "export_sha256": "13766b6987ced0db129f7e76a0f2756f8cb1c84c33f27ffa806dbc1f5bb08f15",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_СРБ_измеренные_и_импутированные_вклады.csv",
+      "export_file": "results/acs/03_СРБ_измеренные_и_импутированные_вклады.csv",
+      "original_sha256": "45b61a95291c704467014ca319c386182dc821fe35f15ddcf476251f43f7efa7",
+      "export_sha256": "45b61a95291c704467014ca319c386182dc821fe35f15ddcf476251f43f7efa7",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_ТАГ_МС_разности_средних_блоков.csv",
+      "export_file": "results/acs/03_ТАГ_МС_разности_средних_блоков.csv",
+      "original_sha256": "43ff29f8cbd1ba28f4436544c65059ac631aa75b7c4cf832a7bd64b4e2453815",
+      "export_sha256": "43ff29f8cbd1ba28f4436544c65059ac631aa75b7c4cf832a7bd64b4e2453815",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_важности_SHAP.csv",
+      "export_file": "results/acs/03_важности_SHAP.csv",
+      "original_sha256": "94a76431d53e8c9d5b62f15d13dcf455f35514723b61ea4863e5b9ec048cf612",
+      "export_sha256": "94a76431d53e8c9d5b62f15d13dcf455f35514723b61ea4863e5b9ec048cf612",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_важности_преобразованных_признаков.csv",
+      "export_file": "results/acs/03_важности_преобразованных_признаков.csv",
+      "original_sha256": "5efe0c8da3c26e81e9ed7aca95002e64c281e761138c9c225c2e22b53fc6bd1e",
+      "export_sha256": "5efe0c8da3c26e81e9ed7aca95002e64c281e761138c9c225c2e22b53fc6bd1e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_диагностика_tree_path.json",
+      "export_file": "results/acs/03_диагностика_tree_path.json",
+      "original_sha256": "41ef8383a811d00f99d85d5b3352b4f29d1bb9ffe1b7697bc112b2b658fb1a3c",
+      "export_sha256": "41ef8383a811d00f99d85d5b3352b4f29d1bb9ffe1b7697bc112b2b658fb1a3c",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_диагностика_аддитивности.json",
+      "export_file": "results/acs/03_диагностика_аддитивности.json",
+      "original_sha256": "fe97c0084195e5bc6760d32319db5934d0d3fb41f424d644912e0f97d0d246ea",
+      "export_sha256": "fe97c0084195e5bc6760d32319db5934d0d3fb41f424d644912e0f97d0d246ea",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_af.png",
+      "export_file": "results/acs/03_зависимость_af.png",
+      "original_sha256": "2af9f11142361557fe922651bb8f9f1661e589533b97fc92564c5fa88c2d5203",
+      "export_sha256": "2af9f11142361557fe922651bb8f9f1661e589533b97fc92564c5fa88c2d5203",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_af.svg",
+      "export_file": "results/acs/03_зависимость_af.svg",
+      "original_sha256": "7ac4928ff98da3b3102fd6039469172b9e263af93ef64af3beda119440c3cc88",
+      "export_sha256": "7ac4928ff98da3b3102fd6039469172b9e263af93ef64af3beda119440c3cc88",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_age.png",
+      "export_file": "results/acs/03_зависимость_age.png",
+      "original_sha256": "b6ac87a43e75520af88360d15012c6a7b81ffd1798f2aee13fd94cc2eec11b53",
+      "export_sha256": "b6ac87a43e75520af88360d15012c6a7b81ffd1798f2aee13fd94cc2eec11b53",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_age.svg",
+      "export_file": "results/acs/03_зависимость_age.svg",
+      "original_sha256": "9a223bf06a13c8296fb31b6cd0ed8dc874691e789743afb5c472e1799ee59328",
+      "export_sha256": "9a223bf06a13c8296fb31b6cd0ed8dc874691e789743afb5c472e1799ee59328",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_crp.png",
+      "export_file": "results/acs/03_зависимость_crp.png",
+      "original_sha256": "de44bfc31061b4569d47dbdd1ce54978ff4e0022516b2fcca6eb05f0bda6c932",
+      "export_sha256": "de44bfc31061b4569d47dbdd1ce54978ff4e0022516b2fcca6eb05f0bda6c932",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_crp.svg",
+      "export_file": "results/acs/03_зависимость_crp.svg",
+      "original_sha256": "5ad316e4109eaa586c4c41bc1fb5ceb4c47b03040e11e2f5e52b6d73d189d8d3",
+      "export_sha256": "5ad316e4109eaa586c4c41bc1fb5ceb4c47b03040e11e2f5e52b6d73d189d8d3",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_killip.png",
+      "export_file": "results/acs/03_зависимость_killip.png",
+      "original_sha256": "901ced83f1f574b7d4f78b8e5f6cc57cd4751e39038854c35e66b92ece73f29d",
+      "export_sha256": "901ced83f1f574b7d4f78b8e5f6cc57cd4751e39038854c35e66b92ece73f29d",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_killip.svg",
+      "export_file": "results/acs/03_зависимость_killip.svg",
+      "original_sha256": "aef01a96f27d10403c2e4eb8801f4bfdfe73f44a53e322a42b90900ab4179423",
+      "export_sha256": "aef01a96f27d10403c2e4eb8801f4bfdfe73f44a53e322a42b90900ab4179423",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_missing_crp.png",
+      "export_file": "results/acs/03_зависимость_missing_crp.png",
+      "original_sha256": "73cd70ae349af109e1414ab4c3f25fc3854160da2a8dd4fc4f0e0b0a6e6d8ea1",
+      "export_sha256": "73cd70ae349af109e1414ab4c3f25fc3854160da2a8dd4fc4f0e0b0a6e6d8ea1",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_missing_crp.svg",
+      "export_file": "results/acs/03_зависимость_missing_crp.svg",
+      "original_sha256": "6a5ad9350e5b479767b98aa278fa7d4ba54c60b35c76fb7cf3b649311b882706",
+      "export_sha256": "6a5ad9350e5b479767b98aa278fa7d4ba54c60b35c76fb7cf3b649311b882706",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_ms.png",
+      "export_file": "results/acs/03_зависимость_ms.png",
+      "original_sha256": "a1eefa9aca7cea691d6d4a7b531ac7e37d1f09aee41d41f78379129d4d3f412c",
+      "export_sha256": "a1eefa9aca7cea691d6d4a7b531ac7e37d1f09aee41d41f78379129d4d3f412c",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_ms.svg",
+      "export_file": "results/acs/03_зависимость_ms.svg",
+      "original_sha256": "b0c846494caf08047210778e2b6f436cb7cfbf64dc43b7ccbdf55a7ac0df296a",
+      "export_sha256": "b0c846494caf08047210778e2b6f436cb7cfbf64dc43b7ccbdf55a7ac0df296a",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_pci.png",
+      "export_file": "results/acs/03_зависимость_pci.png",
+      "original_sha256": "4a5fe7d75f09ff53d3262c28e57ff15bd38f3c981d627702a31e1c0d75a9d158",
+      "export_sha256": "4a5fe7d75f09ff53d3262c28e57ff15bd38f3c981d627702a31e1c0d75a9d158",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_pci.svg",
+      "export_file": "results/acs/03_зависимость_pci.svg",
+      "original_sha256": "31dc21632e2d7f7a1b965e955bc1ec592a80625484dd65ec305b918bcbbac1ee",
+      "export_sha256": "31dc21632e2d7f7a1b965e955bc1ec592a80625484dd65ec305b918bcbbac1ee",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_tag.png",
+      "export_file": "results/acs/03_зависимость_tag.png",
+      "original_sha256": "f990222d6bf64290e00fc245371972fe6e85b977e77e5d8f22cb19a3f64e9e5f",
+      "export_sha256": "f990222d6bf64290e00fc245371972fe6e85b977e77e5d8f22cb19a3f64e9e5f",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_зависимость_tag.svg",
+      "export_file": "results/acs/03_зависимость_tag.svg",
+      "original_sha256": "998850508b0355276bddf1c4b1004230587239b3995a76c12b549b6192cfb45d",
+      "export_sha256": "998850508b0355276bddf1c4b1004230587239b3995a76c12b549b6192cfb45d",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_индивидуальные_примеры.csv",
+      "export_file": "results/acs/03_индивидуальные_примеры.csv",
+      "original_sha256": "c49323b0586b39b58bd90c6429e1c0f822ee4e105bbf36812a2c5185e0e8771a",
+      "export_sha256": "c49323b0586b39b58bd90c6429e1c0f822ee4e105bbf36812a2c5185e0e8771a",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_CatBoost.png",
+      "export_file": "results/acs/03_калибровка_численности_CatBoost.png",
+      "original_sha256": "00f3a91de54c2462895c848be400253f7c20b6c7ad4b9d9e8963ac43642ae201",
+      "export_sha256": "00f3a91de54c2462895c848be400253f7c20b6c7ad4b9d9e8963ac43642ae201",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_CatBoost.svg",
+      "export_file": "results/acs/03_калибровка_численности_CatBoost.svg",
+      "original_sha256": "51b0695e5880330ce185dac1fdc05b85e0efd6fba4404ec71ff0feae4f728be6",
+      "export_sha256": "51b0695e5880330ce185dac1fdc05b85e0efd6fba4404ec71ff0feae4f728be6",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_LR.png",
+      "export_file": "results/acs/03_калибровка_численности_LR.png",
+      "original_sha256": "60a2f17592485a3697e982583fbee7553c88fe31032a6a58b4c29ac453438abe",
+      "export_sha256": "60a2f17592485a3697e982583fbee7553c88fe31032a6a58b4c29ac453438abe",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_LR.svg",
+      "export_file": "results/acs/03_калибровка_численности_LR.svg",
+      "original_sha256": "c34a4b40ec4a63440d6b15cb82401b4962867e7ec891d9584f5b52f009488cb9",
+      "export_sha256": "c34a4b40ec4a63440d6b15cb82401b4962867e7ec891d9584f5b52f009488cb9",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_RF.png",
+      "export_file": "results/acs/03_калибровка_численности_RF.png",
+      "original_sha256": "bf9e25894859f1c567e490a100bcbb7f7c5b5c59c2f774acfe8f1865d9dbd443",
+      "export_sha256": "bf9e25894859f1c567e490a100bcbb7f7c5b5c59c2f774acfe8f1865d9dbd443",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_RF.svg",
+      "export_file": "results/acs/03_калибровка_численности_RF.svg",
+      "original_sha256": "ad1e9e0c417dadb72d3c91820ed0740df1ad33da2e00a43b52e627f3711e2f6f",
+      "export_sha256": "ad1e9e0c417dadb72d3c91820ed0740df1ad33da2e00a43b52e627f3711e2f6f",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_XGBoost.png",
+      "export_file": "results/acs/03_калибровка_численности_XGBoost.png",
+      "original_sha256": "029f185fe1fe897d7e717a8a77848549a3ee9efd5edc8de80dce1d8ab5347156",
+      "export_sha256": "029f185fe1fe897d7e717a8a77848549a3ee9efd5edc8de80dce1d8ab5347156",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_XGBoost.svg",
+      "export_file": "results/acs/03_калибровка_численности_XGBoost.svg",
+      "original_sha256": "74e0fea67e4a419b752264859b5b04a6afd755400ebe44dac0950853457274b2",
+      "export_sha256": "74e0fea67e4a419b752264859b5b04a6afd755400ebe44dac0950853457274b2",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_selector.png",
+      "export_file": "results/acs/03_калибровка_численности_selector.png",
+      "original_sha256": "2628314a807823bee3bc45a98455dff8ea8d2bc99e9894dee67bb0ddee82e198",
+      "export_sha256": "2628314a807823bee3bc45a98455dff8ea8d2bc99e9894dee67bb0ddee82e198",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_калибровка_численности_selector.svg",
+      "export_file": "results/acs/03_калибровка_численности_selector.svg",
+      "original_sha256": "6ef6c4446b7364db97567e1188c557416d9a9ff55301b66df4488d630fec9c3e",
+      "export_sha256": "6ef6c4446b7364db97567e1188c557416d9a9ff55301b66df4488d630fec9c3e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_конфигурация_SHAP.json",
+      "export_file": "results/acs/03_конфигурация_SHAP.json",
+      "original_sha256": "3ac9bbbe75001da2eeed84feed28e2f2ff3598f983d669a422525178ca9686b5",
+      "export_sha256": "3ac9bbbe75001da2eeed84feed28e2f2ff3598f983d669a422525178ca9686b5",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_полные_параметры_модели.json",
+      "export_file": "results/acs/03_полные_параметры_модели.json",
+      "original_sha256": "8b862ffac140fbeda11028f2d6da6507a91a5340586a549458afa940cdb99411",
+      "export_sha256": "8b862ffac140fbeda11028f2d6da6507a91a5340586a549458afa940cdb99411",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_средние_метрики_внешних_блоков.csv",
+      "export_file": "results/acs/03_средние_метрики_внешних_блоков.csv",
+      "original_sha256": "413707f503100188aa4a8edd23998c4bbba251a2f316aeb4fa412a4525839574",
+      "export_sha256": "413707f503100188aa4a8edd23998c4bbba251a2f316aeb4fa412a4525839574",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_схема_исследования.png",
+      "export_file": "results/acs/03_схема_исследования.png",
+      "original_sha256": "4478aae96809fee1a5f698f7bff38b18df26e21395194f50dc9219192760ff9e",
+      "export_sha256": "4478aae96809fee1a5f698f7bff38b18df26e21395194f50dc9219192760ff9e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_схема_исследования.svg",
+      "export_file": "results/acs/03_схема_исследования.svg",
+      "original_sha256": "b534422ece955cb5026830a8fe977d37ace82ee66352ee47f0e414db6f27ef82",
+      "export_sha256": "b534422ece955cb5026830a8fe977d37ace82ee66352ee47f0e414db6f27ef82",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_условные_средние_блоков.csv",
+      "export_file": "results/acs/03_условные_средние_блоков.csv",
+      "original_sha256": "73dca4fa0b83b424f0415056612ca215ec89e3fb662e9c43474ba114226a26c9",
+      "export_sha256": "73dca4fa0b83b424f0415056612ca215ec89e3fb662e9c43474ba114226a26c9",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_финальные_внутренние_разбиения.csv",
+      "export_file": "results/acs/03_финальные_внутренние_разбиения.csv",
+      "original_sha256": "fccfa14ad15254358f85723fb975ffa4bab6b242c9fd9cf7d7c4268f6f60bb42",
+      "export_sha256": "8aed2ec98c2a188e09139395dcfebfc28cd4c2bf51b5de257acbbca5c2370109",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_эффект_Optuna.csv",
+      "export_file": "results/acs/03_эффект_Optuna.csv",
+      "original_sha256": "4606bb801fbf80339de573b2b3b56671aa99f666093a9dd2de1fa013d403131e",
+      "export_sha256": "4606bb801fbf80339de573b2b3b56671aa99f666093a9dd2de1fa013d403131e",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_comparison_folds.csv",
+      "export_file": "results/acs/04_baseline_default_comparison_folds.csv",
+      "original_sha256": "d330429470aa1c481862536b49bccb235d5a9805d1e2f2b8d33028670d4db887",
+      "export_sha256": "d330429470aa1c481862536b49bccb235d5a9805d1e2f2b8d33028670d4db887",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_comparison_summary.csv",
+      "export_file": "results/acs/04_baseline_default_comparison_summary.csv",
+      "original_sha256": "77698b9598df4c99243810bc46138fa8ba1991d95b8491f02a80ad4c871612d0",
+      "export_sha256": "77698b9598df4c99243810bc46138fa8ba1991d95b8491f02a80ad4c871612d0",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_fit_audit.json",
+      "export_file": "results/acs/04_baseline_default_fit_audit.json",
+      "original_sha256": "c7aed6b3dd81b60692849c6347e0aac6f6a19d2121e7bb711b7623881a26a85f",
+      "export_sha256": "c7aed6b3dd81b60692849c6347e0aac6f6a19d2121e7bb711b7623881a26a85f",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_fold_metrics.csv",
+      "export_file": "results/acs/04_baseline_default_fold_metrics.csv",
+      "original_sha256": "7c908fdaad48d493553c81b5c62b71f1fe966b27d257b9555a7d4752943b32d4",
+      "export_sha256": "7c908fdaad48d493553c81b5c62b71f1fe966b27d257b9555a7d4752943b32d4",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_oof.csv",
+      "export_file": "results/acs/04_baseline_default_oof.csv",
+      "original_sha256": "b7bf90dab05638f9bb991b3b7a06913dd477ce2806359cbc38f3d2692726a0a1",
+      "export_sha256": "34b27512e8211bc07d02287822f86ea7a389376f57fe18550855ad34d918a02e",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_paired_differences.csv",
+      "export_file": "results/acs/04_baseline_default_paired_differences.csv",
+      "original_sha256": "fc7112eb6edc436f67a336ed368d03a5fa8dc75676349ecff72b4dfa0be31206",
+      "export_sha256": "fc7112eb6edc436f67a336ed368d03a5fa8dc75676349ecff72b4dfa0be31206",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_pooled_repeats.csv",
+      "export_file": "results/acs/04_baseline_default_pooled_repeats.csv",
+      "original_sha256": "95f61f5a642acf88314f845ba6d5943b0e24e68eb232835d8b0f32e10095203c",
+      "export_sha256": "95f61f5a642acf88314f845ba6d5943b0e24e68eb232835d8b0f32e10095203c",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_pooled_summary.csv",
+      "export_file": "results/acs/04_baseline_default_pooled_summary.csv",
+      "original_sha256": "2216251e85bf705db6e9bf75e9ac364c0db7d1533ddca4c4d69a7bf1d27f2f73",
+      "export_sha256": "2216251e85bf705db6e9bf75e9ac364c0db7d1533ddca4c4d69a7bf1d27f2f73",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_protocol.json",
+      "export_file": "results/acs/04_baseline_default_protocol.json",
+      "original_sha256": "8233dad3f3f37cbcf907ee5fc36a5b42882176405dc498cd274b8b2eb573d721",
+      "export_sha256": "8233dad3f3f37cbcf907ee5fc36a5b42882176405dc498cd274b8b2eb573d721",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_resolved_parameters.json",
+      "export_file": "results/acs/04_baseline_default_resolved_parameters.json",
+      "original_sha256": "eae01890552aea6ff9536296f0f9b33a68c9c84c40191e5641d3d8e783099139",
+      "export_sha256": "eae01890552aea6ff9536296f0f9b33a68c9c84c40191e5641d3d8e783099139",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "04_baseline_default_warnings.json",
+      "export_file": "results/acs/04_baseline_default_warnings.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "export_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "changes": []
+    },
+    {
+      "cohort": "acs",
+      "source_file": "02_модели_Optuna_и_эксперименты.ipynb",
+      "export_file": "notebooks/acs/02_модели_Optuna_и_эксперименты.ipynb",
+      "original_sha256": "3b27c2a70b83395a1e94bd1424abdd47fc3ec1a46c1ab71e360e10778199adec",
+      "changes": [
+        "cleared outputs and metadata",
+        "portable paths and runtime",
+        "removed archive-dependent postprocessing for 03; core SHAP calculation retained",
+        "notebook cell IDs and metadata normalized"
+      ],
+      "export_sha256": "9888b5d8ab5d7c3340ebd964972a7a19dcd30ea8991133ed00662094d1698fd4"
+    },
+    {
+      "cohort": "acs",
+      "source_file": "03_SHAP_и_итоги.ipynb",
+      "export_file": "notebooks/acs/03_SHAP_и_итоги.ipynb",
+      "original_sha256": "c3ca10d2804bc9729dc8bfda2d8f2ff8ef6abd63b05fb136c5074029f0809ce2",
+      "changes": [
+        "cleared outputs and metadata",
+        "portable paths and runtime",
+        "removed archive-dependent postprocessing for 03; core SHAP calculation retained",
+        "notebook cell IDs and metadata normalized"
+      ],
+      "export_sha256": "c67a55bad7625e7acfaea80e1cd7ae5423a0f8183a96ffbffdf92f5d3d500ed3"
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_bootstrap_CI.csv",
+      "export_file": "results/vascular/02_обновлённые_bootstrap_CI.csv",
+      "original_sha256": "e2d5224c394bc9e9d65e35079c8ce7307fdf5d6aa74a4b14cf9b46964be7c110",
+      "export_sha256": "e2d5224c394bc9e9d65e35079c8ce7307fdf5d6aa74a4b14cf9b46964be7c110",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_final_config.json",
+      "export_file": "results/vascular/02_обновлённые_final_config.json",
+      "original_sha256": "4e3cfe95f15138f0e2333213d3bc9526e764867fb87ebba39435af2572c9aa8c",
+      "export_sha256": "4e3cfe95f15138f0e2333213d3bc9526e764867fb87ebba39435af2572c9aa8c",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_final_model.joblib",
+      "export_file": "results/vascular/02_обновлённые_final_model.joblib",
+      "original_sha256": "dc72f8610ff01c55272c2950fadd4c74ecea6edcd0c12028a5ca9eaabb4aeac9",
+      "export_sha256": "dc72f8610ff01c55272c2950fadd4c74ecea6edcd0c12028a5ca9eaabb4aeac9",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_oof.csv",
+      "export_file": "results/vascular/02_обновлённые_oof.csv",
+      "original_sha256": "2bb41cfb14af132f616e057f2336606511d023d3ad178bbb4dbd26201464eccc",
+      "export_sha256": "592b078f29a484d594323e899e6b7be26b3b842336318b1d25901469bd3ea1d4",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_trials.csv",
+      "export_file": "results/vascular/02_обновлённые_trials.csv",
+      "original_sha256": "28fbdd42241503957bc89399a0264fb97c3c07eddb327342a3b437812c6fe0b4",
+      "export_sha256": "28fbdd42241503957bc89399a0264fb97c3c07eddb327342a3b437812c6fe0b4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_аудит_отбора.csv",
+      "export_file": "results/vascular/02_обновлённые_аудит_отбора.csv",
+      "original_sha256": "5bbd645e70dd176b6c550f2ec3cce471dc7ad096290c59bb41c3c7463f627b6e",
+      "export_sha256": "5bbd645e70dd176b6c550f2ec3cce471dc7ad096290c59bb41c3c7463f627b6e",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_аудит_страт.csv",
+      "export_file": "results/vascular/02_обновлённые_аудит_страт.csv",
+      "original_sha256": "185d047ad0b08dbfd6905682baa229e53ae91b355c37ff0edca5da99250ae165",
+      "export_sha256": "185d047ad0b08dbfd6905682baa229e53ae91b355c37ff0edca5da99250ae165",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_внешние_разбиения.csv",
+      "export_file": "results/vascular/02_обновлённые_внешние_разбиения.csv",
+      "original_sha256": "32323057811078ec6e8054658297dbe06b0eaa7a6b4ef4fb2b06458d5d60cdb6",
+      "export_sha256": "07de72da9aaf636045195283ce7b36471e4d4b45c4bec8eb0b3ae52bf0f3ea31",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_внутренние_разбиения.csv",
+      "export_file": "results/vascular/02_обновлённые_внутренние_разбиения.csv",
+      "original_sha256": "f78aaa26925b9790a40e4bee3000b442d9b781629738deb3df42beabf2d1d30b",
+      "export_sha256": "02c6b6786d7ab948a8880bc2fdf7c882bdf95e86ec6315eadf9a96f2a3b8f87a",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_итоговый_train.csv",
+      "export_file": "results/vascular/02_обновлённые_итоговый_train.csv",
+      "original_sha256": "43bf3131720bf500760cfb727a081a9bbe0916955effd3da87c62b3cfe701491",
+      "export_sha256": "1884893aeabeae58c2ecb55facf65eb44b6a822cfe3c97f96ee65034b02f95cd",
+      "changes": [
+        "removed source_row",
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_калибровка.csv",
+      "export_file": "results/vascular/02_обновлённые_калибровка.csv",
+      "original_sha256": "e9792df4fe99bef70d80067988a45cc41bc6a9621bfb15f5f28b1064fb075c3c",
+      "export_sha256": "e9792df4fe99bef70d80067988a45cc41bc6a9621bfb15f5f28b1064fb075c3c",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_качество_калибровка.png",
+      "export_file": "results/vascular/02_обновлённые_качество_калибровка.png",
+      "original_sha256": "9cda1f663586b6984de4b9c9d2296d9062f317943c8f7b4571d78fce679f7a3b",
+      "export_sha256": "9cda1f663586b6984de4b9c9d2296d9062f317943c8f7b4571d78fce679f7a3b",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_качество_калибровка.svg",
+      "export_file": "results/vascular/02_обновлённые_качество_калибровка.svg",
+      "original_sha256": "e1d17dfb778206a6b98b10c5208091e54f56e8b0babc62cda11fd91aa31f902b",
+      "export_sha256": "e1d17dfb778206a6b98b10c5208091e54f56e8b0babc62cda11fd91aa31f902b",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_конфигурации_блоков.json",
+      "export_file": "results/vascular/02_обновлённые_конфигурации_блоков.json",
+      "original_sha256": "adf7d3d4ee8074c40d18b643b7370caa035e11a031d2635affcfb1cd3610e9a4",
+      "export_sha256": "adf7d3d4ee8074c40d18b643b7370caa035e11a031d2635affcfb1cd3610e9a4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_метрики_блоков.csv",
+      "export_file": "results/vascular/02_обновлённые_метрики_блоков.csv",
+      "original_sha256": "c2b084c20b2126fd90cdfb54ba723f9d855fb7ffca82cd105f47e03d86f623eb",
+      "export_sha256": "c2b084c20b2126fd90cdfb54ba723f9d855fb7ffca82cd105f47e03d86f623eb",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_метрики_повторений.csv",
+      "export_file": "results/vascular/02_обновлённые_метрики_повторений.csv",
+      "original_sha256": "1ec7bb9679d7621333fc2f2b11d574fd834a504994bbfb66a555ef8f25af1d00",
+      "export_sha256": "1ec7bb9679d7621333fc2f2b11d574fd834a504994bbfb66a555ef8f25af1d00",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_парные_изменения.csv",
+      "export_file": "results/vascular/02_обновлённые_парные_изменения.csv",
+      "original_sha256": "bc25a79463cfc02a8837a988bb2f596a3b7ba58c672bff6fe7ca4402e6779460",
+      "export_sha256": "bc25a79463cfc02a8837a988bb2f596a3b7ba58c672bff6fe7ca4402e6779460",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_происхождение.json",
+      "export_file": "results/vascular/02_обновлённые_происхождение.json",
+      "original_sha256": "b8b716816d57107cc0b0e760e8b6a7449f3ed11f1d38edb0e0a28acf24ed0dd3",
+      "export_sha256": "b8b716816d57107cc0b0e760e8b6a7449f3ed11f1d38edb0e0a28acf24ed0dd3",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_протокол.json",
+      "export_file": "results/vascular/02_обновлённые_протокол.json",
+      "original_sha256": "2612a5dfa953d73fe2b7abeb60d19a0b558a3e0faa8d29b7db6e236262692f0a",
+      "export_sha256": "2612a5dfa953d73fe2b7abeb60d19a0b558a3e0faa8d29b7db6e236262692f0a",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_сводка_блоков.csv",
+      "export_file": "results/vascular/02_обновлённые_сводка_блоков.csv",
+      "original_sha256": "149bd7386649d47c65fa52812b7f19f9566dcbe291cde5cae115486cff27fe47",
+      "export_sha256": "149bd7386649d47c65fa52812b7f19f9566dcbe291cde5cae115486cff27fe47",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_сводка_повторений.csv",
+      "export_file": "results/vascular/02_обновлённые_сводка_повторений.csv",
+      "original_sha256": "5dec0f5d115c903cd15e69515de42435e72c6baf480e92c7f96bf4dab4441125",
+      "export_sha256": "5dec0f5d115c903cd15e69515de42435e72c6baf480e92c7f96bf4dab4441125",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_сырые_метрики.csv",
+      "export_file": "results/vascular/02_обновлённые_сырые_метрики.csv",
+      "original_sha256": "78b62fde96f7ea0d14e20361d405e9a75a7d50e72b9e38fd07a0a37dca0f0fd4",
+      "export_sha256": "78b62fde96f7ea0d14e20361d405e9a75a7d50e72b9e38fd07a0a37dca0f0fd4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_сырые_сводка_повторений.csv",
+      "export_file": "results/vascular/02_обновлённые_сырые_сводка_повторений.csv",
+      "original_sha256": "248040a4052454c80cc179747e844cae9faa2c46bc81254ef4b9e48f06d36564",
+      "export_sha256": "248040a4052454c80cc179747e844cae9faa2c46bc81254ef4b9e48f06d36564",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_финальные_разбиения.csv",
+      "export_file": "results/vascular/02_обновлённые_финальные_разбиения.csv",
+      "original_sha256": "1ce13b4eb13974f8b36cf87cfa64db02a057499f915798bbd40d91a08ea2c072",
+      "export_sha256": "b8c89751702dea349f547e6541cdaf0d5c7d5ef0b25160089340881262db3b38",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_обновлённые_частота_индикаторов.csv",
+      "export_file": "results/vascular/02_обновлённые_частота_индикаторов.csv",
+      "original_sha256": "49d4f85da67b03a5c06fe9f5513a765f931fad93a8c8f5101ff53392115e80b9",
+      "export_sha256": "49d4f85da67b03a5c06fe9f5513a765f931fad93a8c8f5101ff53392115e80b9",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP.npz",
+      "export_file": "results/vascular/03_обновлённые_SHAP.npz",
+      "original_sha256": "9e3c2f3683bd364058a7b58909639aeaf9e666264792ef744e43aefa4ff1e9bf",
+      "export_sha256": "9e3c2f3683bd364058a7b58909639aeaf9e666264792ef744e43aefa4ff1e9bf",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_bar.png",
+      "export_file": "results/vascular/03_обновлённые_SHAP_bar.png",
+      "original_sha256": "7135c5ea06c3dc41a24ac03187f2289b57da56c3813ec23323704ac9f5f9e263",
+      "export_sha256": "7135c5ea06c3dc41a24ac03187f2289b57da56c3813ec23323704ac9f5f9e263",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_bar.svg",
+      "export_file": "results/vascular/03_обновлённые_SHAP_bar.svg",
+      "original_sha256": "f3b02282e17e6275b40ac51d93f8098659cd66c3d71dda4ef68bf21399182f6d",
+      "export_sha256": "f3b02282e17e6275b40ac51d93f8098659cd66c3d71dda4ef68bf21399182f6d",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_beeswarm.png",
+      "export_file": "results/vascular/03_обновлённые_SHAP_beeswarm.png",
+      "original_sha256": "f28a07d465ea6a4304ab7c650eba68997a03e2d884393dbfa7848422f5e7f26d",
+      "export_sha256": "f28a07d465ea6a4304ab7c650eba68997a03e2d884393dbfa7848422f5e7f26d",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_beeswarm.svg",
+      "export_file": "results/vascular/03_обновлённые_SHAP_beeswarm.svg",
+      "original_sha256": "85a07e297473866261ed6ab138869ec1e6a1198ecc544d9f8b570e7907839288",
+      "export_sha256": "85a07e297473866261ed6ab138869ec1e6a1198ecc544d9f8b570e7907839288",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_бюджет.csv",
+      "export_file": "results/vascular/03_обновлённые_SHAP_бюджет.csv",
+      "original_sha256": "ad702ebfbeec260ad82d645186ca007aa3c3afbce5ba05500f226f254cdbe568",
+      "export_sha256": "ad702ebfbeec260ad82d645186ca007aa3c3afbce5ba05500f226f254cdbe568",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_SHAP_по_бассейнам.csv",
+      "export_file": "results/vascular/03_обновлённые_SHAP_по_бассейнам.csv",
+      "original_sha256": "38bee36c946d435d7db99fc6bcbde3e7bce51e6d54dc49082284248a15b3d401",
+      "export_sha256": "38bee36c946d435d7db99fc6bcbde3e7bce51e6d54dc49082284248a15b3d401",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_background.npz",
+      "export_file": "results/vascular/03_обновлённые_background.npz",
+      "original_sha256": "1d3b6b0b38894dc43502d831e4b68b303e71c18196a6f2810e892ec0eeaea75a",
+      "export_sha256": "1d3b6b0b38894dc43502d831e4b68b303e71c18196a6f2810e892ec0eeaea75a",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_recall_интервалы.csv",
+      "export_file": "results/vascular/03_обновлённые_recall_интервалы.csv",
+      "original_sha256": "3d43e617372a00a0f51c9069e0ca0ed4093a25932a321a65c2906fd4a024bbb7",
+      "export_sha256": "3d43e617372a00a0f51c9069e0ca0ed4093a25932a321a65c2906fd4a024bbb7",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_0.png",
+      "export_file": "results/vascular/03_обновлённые_waterfall_0.png",
+      "original_sha256": "7f467a971ef173977d22ff46be0a2b6b13c044febc41a04f40c8967cf3a45e77",
+      "export_sha256": "7f467a971ef173977d22ff46be0a2b6b13c044febc41a04f40c8967cf3a45e77",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_0.svg",
+      "export_file": "results/vascular/03_обновлённые_waterfall_0.svg",
+      "original_sha256": "ce0471efa11cf96d310e648faa0818fa80f108780b494af9b90274e54aa92398",
+      "export_sha256": "ce0471efa11cf96d310e648faa0818fa80f108780b494af9b90274e54aa92398",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_2.png",
+      "export_file": "results/vascular/03_обновлённые_waterfall_2.png",
+      "original_sha256": "b544a8ac0cb570cb45c1c47a1a3a469f4026e69092ee61e080332bebce2b9141",
+      "export_sha256": "b544a8ac0cb570cb45c1c47a1a3a469f4026e69092ee61e080332bebce2b9141",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_2.svg",
+      "export_file": "results/vascular/03_обновлённые_waterfall_2.svg",
+      "original_sha256": "fae4c9a03fd078004864aece58ffcca77b3d5a6155e6c4e0e2af4354e8103d42",
+      "export_sha256": "fae4c9a03fd078004864aece58ffcca77b3d5a6155e6c4e0e2af4354e8103d42",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_326.png",
+      "export_file": "results/vascular/03_обновлённые_waterfall_326.png",
+      "original_sha256": "f48430e17f3cf775e13c8ed1245809b528df40cd80ee21a50cdbd305aa152253",
+      "export_sha256": "f48430e17f3cf775e13c8ed1245809b528df40cd80ee21a50cdbd305aa152253",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_326.svg",
+      "export_file": "results/vascular/03_обновлённые_waterfall_326.svg",
+      "original_sha256": "79948176bc5a09bf707eacd8eb5a62d58966586bc81a3df18241091609b42e74",
+      "export_sha256": "79948176bc5a09bf707eacd8eb5a62d58966586bc81a3df18241091609b42e74",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_374.png",
+      "export_file": "results/vascular/03_обновлённые_waterfall_374.png",
+      "original_sha256": "55b771edef1f14ef0b4b629cece9f8a35b1e2084e2477aae727c9884c7466d11",
+      "export_sha256": "55b771edef1f14ef0b4b629cece9f8a35b1e2084e2477aae727c9884c7466d11",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_waterfall_374.svg",
+      "export_file": "results/vascular/03_обновлённые_waterfall_374.svg",
+      "original_sha256": "460f44f6d068df854b886be67cb4838550ad895f07f89a3f846ceff938041caa",
+      "export_sha256": "460f44f6d068df854b886be67cb4838550ad895f07f89a3f846ceff938041caa",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_важности_SHAP.csv",
+      "export_file": "results/vascular/03_обновлённые_важности_SHAP.csv",
+      "original_sha256": "222e496cb04eda13b588aa765a7dd790d5afc0c8ac391ce4e1680cf18e3913e4",
+      "export_sha256": "222e496cb04eda13b588aa765a7dd790d5afc0c8ac391ce4e1680cf18e3913e4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_bmi.png",
+      "export_file": "results/vascular/03_обновлённые_зависимость_bmi.png",
+      "original_sha256": "a7038115eda6c16ecc22fcb6a29873a61704b5502c8a018f2f339ed849e37259",
+      "export_sha256": "a7038115eda6c16ecc22fcb6a29873a61704b5502c8a018f2f339ed849e37259",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_bmi.svg",
+      "export_file": "results/vascular/03_обновлённые_зависимость_bmi.svg",
+      "original_sha256": "11126aeb5a739d6a554774145267692a67be8cd04972ecc72bf7c790f14cc835",
+      "export_sha256": "11126aeb5a739d6a554774145267692a67be8cd04972ecc72bf7c790f14cc835",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_crp_value.png",
+      "export_file": "results/vascular/03_обновлённые_зависимость_crp_value.png",
+      "original_sha256": "018ad8ea3fcfb4ca3c6f118dc8ba56bc0470028c9f55c3977745376829dc96a4",
+      "export_sha256": "018ad8ea3fcfb4ca3c6f118dc8ba56bc0470028c9f55c3977745376829dc96a4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_crp_value.svg",
+      "export_file": "results/vascular/03_обновлённые_зависимость_crp_value.svg",
+      "original_sha256": "4d7c43f573c7e8a2f42514a7cd944a4fca73e7710fb0dc2d563b03f7543a54d3",
+      "export_sha256": "4d7c43f573c7e8a2f42514a7cd944a4fca73e7710fb0dc2d563b03f7543a54d3",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_ldl_mmol_l.png",
+      "export_file": "results/vascular/03_обновлённые_зависимость_ldl_mmol_l.png",
+      "original_sha256": "09d81ef2073613c847482fbf0b1f99bb02db79adfc1faed0d170f3087609c8d9",
+      "export_sha256": "09d81ef2073613c847482fbf0b1f99bb02db79adfc1faed0d170f3087609c8d9",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_ldl_mmol_l.svg",
+      "export_file": "results/vascular/03_обновлённые_зависимость_ldl_mmol_l.svg",
+      "original_sha256": "416a9e76fe2d4793ab42ce761773d72c4ad35ac1e679337a991a5005c6c4c730",
+      "export_sha256": "416a9e76fe2d4793ab42ce761773d72c4ad35ac1e679337a991a5005c6c4c730",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_total_cholesterol.png",
+      "export_file": "results/vascular/03_обновлённые_зависимость_total_cholesterol.png",
+      "original_sha256": "579132ad0bceda6050233a52724fe4f65026366bbb1786976dceb01744a3a54a",
+      "export_sha256": "579132ad0bceda6050233a52724fe4f65026366bbb1786976dceb01744a3a54a",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_total_cholesterol.svg",
+      "export_file": "results/vascular/03_обновлённые_зависимость_total_cholesterol.svg",
+      "original_sha256": "9cb5eeac4d83b33e4fae4f562df030542e1d6aa14e53ac25b0ebb2091bd47c49",
+      "export_sha256": "9cb5eeac4d83b33e4fae4f562df030542e1d6aa14e53ac25b0ebb2091bd47c49",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_vascular_group.png",
+      "export_file": "results/vascular/03_обновлённые_зависимость_vascular_group.png",
+      "original_sha256": "f9d255c9bd3ae58e9b4333d851bb2c63785cf2162bb9740a34db45ba0208f746",
+      "export_sha256": "f9d255c9bd3ae58e9b4333d851bb2c63785cf2162bb9740a34db45ba0208f746",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_зависимость_vascular_group.svg",
+      "export_file": "results/vascular/03_обновлённые_зависимость_vascular_group.svg",
+      "original_sha256": "2a28e65b4251c9bd9883947c3cb83ee61c9dd4ffd5415665e01cd9aadc718028",
+      "export_sha256": "2a28e65b4251c9bd9883947c3cb83ee61c9dd4ffd5415665e01cd9aadc718028",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_индивидуальные_примеры.csv",
+      "export_file": "results/vascular/03_обновлённые_индивидуальные_примеры.csv",
+      "original_sha256": "ec6ee8ec1dc849bfc220e92dd80abb65c107c061f8ca387ec698e221bdddc9a4",
+      "export_sha256": "ec6ee8ec1dc849bfc220e92dd80abb65c107c061f8ca387ec698e221bdddc9a4",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_калибровка_selector.png",
+      "export_file": "results/vascular/03_обновлённые_калибровка_selector.png",
+      "original_sha256": "5da54f10c0723743cbc732b7d2645c499a85503858c8af1aec6b0396dc1a7f93",
+      "export_sha256": "5da54f10c0723743cbc732b7d2645c499a85503858c8af1aec6b0396dc1a7f93",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_калибровка_selector.svg",
+      "export_file": "results/vascular/03_обновлённые_калибровка_selector.svg",
+      "original_sha256": "f9a831bc3baea1f4eb4d61618f906ac364ccc3e7f182d722cfbef2f0ad50dbf9",
+      "export_sha256": "f9a831bc3baea1f4eb4d61618f906ac364ccc3e7f182d722cfbef2f0ad50dbf9",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_калибровка_selector_all_real.png",
+      "export_file": "results/vascular/03_обновлённые_калибровка_selector_all_real.png",
+      "original_sha256": "2687cb3b655b97e0fda91d2d507d9637b2e6f23600d096573829ab8a0f9fdadc",
+      "export_sha256": "2687cb3b655b97e0fda91d2d507d9637b2e6f23600d096573829ab8a0f9fdadc",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_калибровка_selector_all_real.svg",
+      "export_file": "results/vascular/03_обновлённые_калибровка_selector_all_real.svg",
+      "original_sha256": "c2e61e29dcbf315983211c7309b19ca5f30ed3faabfd2758e043a07a8dfca04a",
+      "export_sha256": "c2e61e29dcbf315983211c7309b19ca5f30ed3faabfd2758e043a07a8dfca04a",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_качество_по_бассейнам.csv",
+      "export_file": "results/vascular/03_обновлённые_качество_по_бассейнам.csv",
+      "original_sha256": "2a587f02a4510d0e2f5409721130e874143e17d3e6810c6b589e6e3f99296e0c",
+      "export_sha256": "2a587f02a4510d0e2f5409721130e874143e17d3e6810c6b589e6e3f99296e0c",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_конфигурация_SHAP.json",
+      "export_file": "results/vascular/03_обновлённые_конфигурация_SHAP.json",
+      "original_sha256": "ade4b9ee7e03888e41f36491071eb1de33eace1f2c7746584793fc8f0c92e3f9",
+      "export_sha256": "ade4b9ee7e03888e41f36491071eb1de33eace1f2c7746584793fc8f0c92e3f9",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_матрицы_ошибок.png",
+      "export_file": "results/vascular/03_обновлённые_матрицы_ошибок.png",
+      "original_sha256": "a058467240a215c432d4471d12c2e50f3fde7733f35265ff18f333fac4efaa03",
+      "export_sha256": "a058467240a215c432d4471d12c2e50f3fde7733f35265ff18f333fac4efaa03",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_матрицы_ошибок.svg",
+      "export_file": "results/vascular/03_обновлённые_матрицы_ошибок.svg",
+      "original_sha256": "935c8d6528b4fa3ea0c74d32ff263ed4af6692f6a75756f0543b730eaae7cdbd",
+      "export_sha256": "935c8d6528b4fa3ea0c74d32ff263ed4af6692f6a75756f0543b730eaae7cdbd",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_ошибки.csv",
+      "export_file": "results/vascular/03_обновлённые_ошибки.csv",
+      "original_sha256": "47b8d667a5328151ae993e0449f1a2ad3c59f8a5b0d98becf9f12336920bcb20",
+      "export_sha256": "3e477f21d534771412d655748fb11a28701ffaffbe2ac5df64415f06a1d0e0a6",
+      "changes": [
+        "renumbered group_id"
+      ]
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_ошибки_и_полнота.csv",
+      "export_file": "results/vascular/03_обновлённые_ошибки_и_полнота.csv",
+      "original_sha256": "ba84abe1d923356e7c4e49d443a7921f4626f8b9d746658c5b9b7656329b4623",
+      "export_sha256": "ba84abe1d923356e7c4e49d443a7921f4626f8b9d746658c5b9b7656329b4623",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_параметры_модели.json",
+      "export_file": "results/vascular/03_обновлённые_параметры_модели.json",
+      "original_sha256": "48584ac80749754df77b4956ebb16e39e2de505a1e61733739e773e5e77afa92",
+      "export_sha256": "48584ac80749754df77b4956ebb16e39e2de505a1e61733739e773e5e77afa92",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_прогнозы_по_бассейнам.png",
+      "export_file": "results/vascular/03_обновлённые_прогнозы_по_бассейнам.png",
+      "original_sha256": "9733e3af3753cd100450a57d63f4b0ced5c6e6b41ba28d2e506c5ea94ec9524e",
+      "export_sha256": "9733e3af3753cd100450a57d63f4b0ced5c6e6b41ba28d2e506c5ea94ec9524e",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_прогнозы_по_бассейнам.svg",
+      "export_file": "results/vascular/03_обновлённые_прогнозы_по_бассейнам.svg",
+      "original_sha256": "29efe887c9e589fc2e1168bbce73c9ec23713952dbbc372b3695d6135f860399",
+      "export_sha256": "29efe887c9e589fc2e1168bbce73c9ec23713952dbbc372b3695d6135f860399",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_состав_схем.png",
+      "export_file": "results/vascular/03_обновлённые_состав_схем.png",
+      "original_sha256": "6dd819154b49f60797f47222079b8bd98e8a5251c4ff9634fcea6a6334a24e9b",
+      "export_sha256": "6dd819154b49f60797f47222079b8bd98e8a5251c4ff9634fcea6a6334a24e9b",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_состав_схем.svg",
+      "export_file": "results/vascular/03_обновлённые_состав_схем.svg",
+      "original_sha256": "3518938087963f959a8cbc3528e752b684af8822b7d658730ef77078b41f01ed",
+      "export_sha256": "3518938087963f959a8cbc3528e752b684af8822b7d658730ef77078b41f01ed",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_обновлённые_частота_выбора.csv",
+      "export_file": "results/vascular/03_обновлённые_частота_выбора.csv",
+      "original_sha256": "8e6263fc588255540a68983d6029022d6ee5dc4c12759775d0d632bb9394fd23",
+      "export_sha256": "8e6263fc588255540a68983d6029022d6ee5dc4c12759775d0d632bb9394fd23",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "04_сравнение_всех_метрик.csv",
+      "export_file": "results/vascular/04_сравнение_всех_метрик.csv",
+      "original_sha256": "1248d035b1c7400e18844e3087bb87ac6869eb476d0a25d2de671ddcb2572aad",
+      "export_sha256": "1248d035b1c7400e18844e3087bb87ac6869eb476d0a25d2de671ddcb2572aad",
+      "changes": []
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "02_модели_Optuna_и_эксперименты.ipynb",
+      "export_file": "notebooks/vascular/02_модели_Optuna_и_эксперименты.ipynb",
+      "original_sha256": "f4d0849f3561461f79e1376d12e40d954114a3f0b6723799c2e808b3a3f230fc",
+      "changes": [
+        "cleared outputs and metadata",
+        "portable paths and runtime",
+        "removed archive-dependent postprocessing for 03; core SHAP calculation retained",
+        "notebook cell IDs and metadata normalized"
+      ],
+      "export_sha256": "f0f85a07109d8961aeebd374e5973f05d15f1ba2062e289142a4c0b286a37e8b"
+    },
+    {
+      "cohort": "vascular",
+      "source_file": "03_SHAP_и_итоги.ipynb",
+      "export_file": "notebooks/vascular/03_SHAP_и_итоги.ipynb",
+      "original_sha256": "8a1c0e0c7ffad5abe048dde5902a0435456e328f7873362098a77bbc2dbfc787",
+      "changes": [
+        "cleared outputs and metadata",
+        "portable paths and runtime",
+        "removed archive-dependent postprocessing for 03; core SHAP calculation retained",
+        "notebook cell IDs and metadata normalized"
+      ],
+      "export_sha256": "89cdcf39e4dfe559f67b31006ae461b47e50e7327cfdb0894560d760d52d4010"
+    },
+    {
+      "source_file": "Screenshot 2026-11-03 at 13.15.16.png",
+      "export_file": "docs/figures/01_quality_user.png",
+      "original_sha256": "933d18ae222e42763efba803120e7c4935c5e995101a7824768290c99dd2edeb",
+      "export_sha256": "933d18ae222e42763efba803120e7c4935c5e995101a7824768290c99dd2edeb",
+      "changes": []
+    },
+    {
+      "source_file": "Screenshot 2026-11-03 at 13.15.33.png",
+      "export_file": "docs/figures/02_global_shap_user.png",
+      "original_sha256": "73aa0276955208b2497519f7e2378a02c4f379b2f3c86d25024185e5bc48c019",
+      "export_sha256": "73aa0276955208b2497519f7e2378a02c4f379b2f3c86d25024185e5bc48c019",
+      "changes": []
+    },
+    {
+      "source_file": "Screenshot 2026-11-03 at 13.15.39.png",
+      "export_file": "docs/figures/03_local_shap_user.png",
+      "original_sha256": "5893d166f253d201c17960b571f2f7b6ffc128c6fceb07dbb28b2c5a9cf3af81",
+      "export_sha256": "5893d166f253d201c17960b571f2f7b6ffc128c6fceb07dbb28b2c5a9cf3af81",
+      "changes": []
+    }
+  ],
+  "notes": [
+    "Source filenames refer to local research history; source workbooks and identity mappings are not distributed.",
+    "Snapshot result hashes are distinct from any future new computation.",
+    "Original medical inputs remain unchanged outside this repository."
+  ]
+}

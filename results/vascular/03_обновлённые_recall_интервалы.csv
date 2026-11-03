@@ -1,0 +1,10 @@
+vascular_group,repeat,real_deaths,TP,recall,lower,upper,scope
+0,0,34,22,0.6470588235294118,0.46488637089104207,0.8025413520876576,exact binomial descriptive per repeat; no training uncertainty
+0,1,34,31,0.9117647058823529,0.7632247257130624,0.9814204965591596,exact binomial descriptive per repeat; no training uncertainty
+0,2,34,30,0.8823529411764706,0.7254965128576445,0.9669983196635304,exact binomial descriptive per repeat; no training uncertainty
+1,0,16,11,0.6875,0.41337936354864135,0.8898300452828825,exact binomial descriptive per repeat; no training uncertainty
+1,1,16,8,0.5,0.24651011149057533,0.7534898885094247,exact binomial descriptive per repeat; no training uncertainty
+1,2,16,16,1.0,0.7940927857921772,1.0,exact binomial descriptive per repeat; no training uncertainty
+2,0,5,1,0.2,0.0050507633794680575,0.7164179361180895,exact binomial descriptive per repeat; no training uncertainty
+2,1,5,0,0.0,0.0,0.5218237501049814,exact binomial descriptive per repeat; no training uncertainty
+2,2,5,1,0.2,0.0050507633794680575,0.7164179361180895,exact binomial descriptive per repeat; no training uncertainty

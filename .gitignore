@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+runs/
+verification/local_*
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+catboost_info/
+data/raw/
+private/
+*.xls
+*.xlsx
+*.log

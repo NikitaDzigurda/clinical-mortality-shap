@@ -1,0 +1,117 @@
+{
+  "fits": [
+    {
+      "cohort": "acs",
+      "family": "LR",
+      "strategy": "all_real",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "RF",
+      "strategy": "all_real",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "CatBoost",
+      "strategy": "all_real",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "XGBoost",
+      "strategy": "all_real",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "LR",
+      "strategy": "stratified_4to1",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "RF",
+      "strategy": "stratified_4to1",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "CatBoost",
+      "strategy": "stratified_4to1",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "acs",
+      "family": "XGBoost",
+      "strategy": "stratified_4to1",
+      "test_rows": 302,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "LR",
+      "strategy": "all_real",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "RF",
+      "strategy": "all_real",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "CatBoost",
+      "strategy": "all_real",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "XGBoost",
+      "strategy": "all_real",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "LR",
+      "strategy": "under_5",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "RF",
+      "strategy": "under_5",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "CatBoost",
+      "strategy": "under_5",
+      "test_rows": 184,
+      "status": "passed"
+    },
+    {
+      "cohort": "vascular",
+      "family": "XGBoost",
+      "strategy": "under_5",
+      "test_rows": 184,
+      "status": "passed"
+    }
+  ],
+  "scope": "16 fits using actual notebook functions on one saved grouped split; no Optuna search"
+}

@@ -1,0 +1,6 @@
+{
+  "run_id": "oks_crp_indicator_restored_v3_2b854cfe4530",
+  "mode": "tree_path_dependent, implicit real training path counts, model_output=raw",
+  "max_additivity_error": 6.245004513516506e-16,
+  "n": 906
+}

@@ -1,0 +1,16 @@
+family,metric,estimate,lower,upper,scope
+LR,AP,0.6547242010430184,0.5161074370670004,0.7772632039712031,conditional group bootstrap; fixed OOF predictions
+LR,ROC_AUC,0.9348944999865262,0.8920882037131566,0.9672744571576606,conditional group bootstrap; fixed OOF predictions
+LR,Brier,0.02521205385468579,0.01819649512390209,0.03304309086965336,conditional group bootstrap; fixed OOF predictions
+RF,AP,0.670258318845124,0.535048370352892,0.7963207073434578,conditional group bootstrap; fixed OOF predictions
+RF,ROC_AUC,0.9607103398097497,0.9358945396859885,0.9804109743549796,conditional group bootstrap; fixed OOF predictions
+RF,Brier,0.02556525767762705,0.019316462695086543,0.0324448233482046,conditional group bootstrap; fixed OOF predictions
+CatBoost,AP,0.700072121276544,0.5603978642349227,0.8210530006032575,conditional group bootstrap; fixed OOF predictions
+CatBoost,ROC_AUC,0.9480718963054784,0.9133654293716389,0.9762637328747241,conditional group bootstrap; fixed OOF predictions
+CatBoost,Brier,0.02615684091940088,0.019431368138525123,0.03375912445156411,conditional group bootstrap; fixed OOF predictions
+XGBoost,AP,0.716474303197553,0.580315417306991,0.8294821366629761,conditional group bootstrap; fixed OOF predictions
+XGBoost,ROC_AUC,0.9477934373512266,0.9174669655521163,0.9739111614544814,conditional group bootstrap; fixed OOF predictions
+XGBoost,Brier,0.03846781847665009,0.031126290660880497,0.046155637628455405,conditional group bootstrap; fixed OOF predictions
+selector,AP,0.6765236433945279,0.5412980978706753,0.7973948318043763,conditional group bootstrap; fixed OOF predictions
+selector,ROC_AUC,0.9445687030100514,0.9091411526094523,0.973376826555093,conditional group bootstrap; fixed OOF predictions
+selector,Brier,0.027080659185188507,0.020547082591228408,0.03430080224106137,conditional group bootstrap; fixed OOF predictions

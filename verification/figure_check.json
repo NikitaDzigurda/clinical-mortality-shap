@@ -1,0 +1,27 @@
+{
+  "local": [
+    {
+      "cohort": "acs",
+      "example_row": 27,
+      "matches_saved_model_and_shap": true
+    },
+    {
+      "cohort": "vascular",
+      "example_row": 2,
+      "matches_saved_model_and_shap": true
+    }
+  ],
+  "global": [
+    {
+      "cohort": "acs",
+      "screenshot_labels_checked": 8,
+      "tolerance_due_to_rounding": 5e-05
+    },
+    {
+      "cohort": "vascular",
+      "screenshot_labels_checked": 8,
+      "tolerance_due_to_rounding": 5e-05
+    }
+  ],
+  "quality": "12 manually changed values in ACS screenshot; see quality_demo_changes.csv"
+}

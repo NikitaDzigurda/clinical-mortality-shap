@@ -1,0 +1,17 @@
+{
+  "scope": "Public text compared in memory with personal-name tokens from both clinical sources; no names or lookup tables stored",
+  "checked_files": 237,
+  "unresolved_matches": [],
+  "reviewed_nonpersonal_matches": [
+    {
+      "file": "docs/REPRODUCIBILITY.md",
+      "classification": "common adjective in documentation, not a person reference"
+    },
+    {
+      "file": "docs/RESEARCH_HISTORY.md",
+      "classification": "common adjective in documentation, not a person reference"
+    }
+  ],
+  "direct_identifier_columns_absent": true,
+  "not_a_formal_anonymity_assessment": true
+}

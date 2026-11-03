@@ -1,0 +1,9 @@
+{
+  "run_id": "oks_crp_indicator_restored_v3_2b854cfe4530",
+  "family": "RF",
+  "scale": "вероятность смерти",
+  "max_additivity_error": 6.245004513516506e-16,
+  "tolerance": 1e-05,
+  "model_output": "predict_proba death",
+  "n": 906
+}

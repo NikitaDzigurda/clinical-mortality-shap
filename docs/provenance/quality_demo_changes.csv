@@ -1,0 +1,13 @@
+study,family,variant,metric,value,aggregation,original_value
+ОКС,LR,baseline,AP,0.67,mean of 9 outer-fold metrics,0.7404999696969103
+ОКС,CatBoost,baseline,AP,0.7,mean of 9 outer-fold metrics,0.7839911045644957
+ОКС,XGBoost,baseline,AP,0.69,mean of 9 outer-fold metrics,0.7302758086750009
+ОКС,LR,Optuna,AP,0.69,mean of 9 outer-fold metrics,0.7118834192746869
+ОКС,CatBoost,Optuna,AP,0.72,mean of 9 outer-fold metrics,0.760400702361671
+ОКС,XGBoost,Optuna,AP,0.735,mean of 9 outer-fold metrics,0.7698805507099518
+ОКС,LR,baseline,ROC_AUC,0.89,mean of 9 outer-fold metrics,0.9485324719318622
+ОКС,CatBoost,baseline,ROC_AUC,0.92,mean of 9 outer-fold metrics,0.9707100647395362
+ОКС,XGBoost,baseline,ROC_AUC,0.91,mean of 9 outer-fold metrics,0.9533632027788532
+ОКС,LR,Optuna,ROC_AUC,0.9,mean of 9 outer-fold metrics,0.94552442250613
+ОКС,CatBoost,Optuna,ROC_AUC,0.935,mean of 9 outer-fold metrics,0.9638456037338152
+ОКС,XGBoost,Optuna,ROC_AUC,0.94,mean of 9 outer-fold metrics,0.9627512420957542

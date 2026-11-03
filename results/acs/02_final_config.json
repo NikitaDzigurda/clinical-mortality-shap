@@ -1,0 +1,119 @@
+{
+  "run_id": "oks_crp_indicator_restored_v3_2b854cfe4530",
+  "selection": {
+    "family": "RF",
+    "config": {
+      "strategy": "all_real",
+      "indicators": true,
+      "params": {
+        "n_estimators": 600,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    "inner_AP": 0.8243210320476844,
+    "inner_Brier": 0.022655692470616495,
+    "threshold": 0.05938358469158724,
+    "study_name": "oks_crp_indicator_restored_v3_2b854cfe4530_final_RF",
+    "best_trial": 41,
+    "completed": 50
+  },
+  "all_families": [
+    {
+      "family": "LR",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "C": 97.74981688697471
+        }
+      },
+      "inner_AP": 0.7313719499201147,
+      "inner_Brier": 0.024218229952210724,
+      "threshold": 0.11549076525574895,
+      "study_name": "oks_crp_indicator_restored_v3_2b854cfe4530_final_LR",
+      "best_trial": 13,
+      "completed": 50
+    },
+    {
+      "family": "RF",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "n_estimators": 600,
+          "max_depth": 4,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt"
+        }
+      },
+      "inner_AP": 0.8243210320476844,
+      "inner_Brier": 0.022655692470616495,
+      "threshold": 0.05938358469158724,
+      "study_name": "oks_crp_indicator_restored_v3_2b854cfe4530_final_RF",
+      "best_trial": 41,
+      "completed": 50
+    },
+    {
+      "family": "CatBoost",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "iterations": 100,
+          "depth": 6,
+          "learning_rate": 0.02066223665624425,
+          "l2_leaf_reg": 0.10370668715212747
+        }
+      },
+      "inner_AP": 0.8141469403287767,
+      "inner_Brier": 0.01814439559512836,
+      "threshold": 0.06368703799766043,
+      "study_name": "oks_crp_indicator_restored_v3_2b854cfe4530_final_CatBoost",
+      "best_trial": 12,
+      "completed": 50
+    },
+    {
+      "family": "XGBoost",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "n_estimators": 300,
+          "max_depth": 5,
+          "learning_rate": 0.07230299038356335,
+          "min_child_weight": 1.5988481950209605,
+          "subsample": 0.9928587389398345,
+          "colsample_bytree": 0.6471406738876159,
+          "reg_lambda": 1.3148549442138817,
+          "reg_alpha": 2.8380362765754867
+        }
+      },
+      "inner_AP": 0.7899759641177236,
+      "inner_Brier": 0.018915492197747425,
+      "threshold": 0.022425299510359764,
+      "study_name": "oks_crp_indicator_restored_v3_2b854cfe4530_final_XGBoost",
+      "best_trial": 36,
+      "completed": 50
+    }
+  ],
+  "features": [
+    "age",
+    "male",
+    "mi",
+    "st_elevation",
+    "tag",
+    "ms",
+    "killip",
+    "low_ef",
+    "crp",
+    "ckd",
+    "pre_tlt",
+    "af",
+    "pci",
+    "grace",
+    "diabetes"
+  ],
+  "interpretation": "full-cohort fitted artifact; independent quality belongs to nested selector"
+}

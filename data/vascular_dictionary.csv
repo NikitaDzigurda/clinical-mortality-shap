@@ -1,0 +1,15 @@
+feature,label,type,missing_n,missing_pct
+age_years,"Возраст, лет",continuous,8,1.45985401459854
+ef_percent,"ФВ, %",continuous,233,42.518248175182485
+creatinine_value,Креатинин (ед. базы),continuous,147,26.824817518248175
+total_cholesterol,Общий холестерин (ед. базы),continuous,253,46.167883211678834
+ldl_mmol_l,"ЛПНП, ммоль/л",continuous,3,0.5474452554744526
+glucose_value,"Глюкоза, ммоль/л",continuous,127,23.175182481751825
+crp_value,СРБ (ед. базы),continuous,21,3.832116788321168
+egfr_value,СКФ (ед. базы),continuous,162,29.56204379562044
+bmi,"ИМТ, кг/м²",continuous,310,56.56934306569343
+female,Женский пол,categorical,0,0.0
+prior_vascular_surgery,Предыдущая сосудистая операция,categorical,0,0.0
+mi_history,Инфаркт в анамнезе,categorical,2,0.364963503649635
+stroke_history,ОНМК в анамнезе,categorical,3,0.5474452554744526
+vascular_group,Сосудистый бассейн,categorical,0,0.0

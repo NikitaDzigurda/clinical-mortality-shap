@@ -1,0 +1,4 @@
+chosen_family,chosen_strategy,outer_blocks
+CatBoost,under_10,2
+CatBoost,under_5,2
+XGBoost,under_5,5

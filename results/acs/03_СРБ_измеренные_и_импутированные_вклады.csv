@@ -1,0 +1,3 @@
+run_id,originally_missing,n,mean_abs_SHAP,mean_signed_SHAP,scale
+oks_crp_indicator_restored_v3_2b854cfe4530,False,858,0.0038436091643400667,-0.0013352795690386443,вероятность смерти
+oks_crp_indicator_restored_v3_2b854cfe4530,True,48,0.03900496282582497,0.03900496282582497,вероятность смерти

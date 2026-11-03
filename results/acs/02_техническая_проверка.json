@@ -1,0 +1,9 @@
+{
+  "run_id": "oks_crp_indicator_restored_v3_2b854cfe4530",
+  "status": "passed",
+  "feature_schemas": 32,
+  "crp_value_retained": true,
+  "crp_missing_flag_policy_valid": true,
+  "final_missing_crp_present": true,
+  "all_training_deaths_retained": true
+}

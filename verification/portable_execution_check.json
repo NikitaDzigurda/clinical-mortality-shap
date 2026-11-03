@@ -1,0 +1,33 @@
+{
+  "executions": [
+    {
+      "cohort": "acs",
+      "stage": "01",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "cohort": "acs",
+      "stage": "03",
+      "executed_code_cells": 5,
+      "cell_errors": 0
+    },
+    {
+      "cohort": "vascular",
+      "stage": "01",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "cohort": "vascular",
+      "stage": "03",
+      "executed_code_cells": 5,
+      "cell_errors": 0
+    }
+  ],
+  "recorded_result_checks": 4832,
+  "training_smoke_fits": 16,
+  "new_full_optuna_search": false,
+  "environment_note": "ipykernel emitted sandbox process-enumeration warnings during shutdown; notebook execution completed without cell errors",
+  "portable_notebook_format_and_repository_links": "passed"
+}

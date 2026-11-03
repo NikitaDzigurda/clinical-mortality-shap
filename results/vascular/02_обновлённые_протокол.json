@@ -1,0 +1,81 @@
+{
+  "version": "hospital_updated55_serial_fixed_v4",
+  "seed": 2026,
+  "outer_folds": 3,
+  "outer_repeats": 3,
+  "inner_folds": 3,
+  "trials_per_family_per_strategy": 50,
+  "families": [
+    "LR",
+    "RF",
+    "CatBoost",
+    "XGBoost"
+  ],
+  "strategies": [
+    "all_real",
+    "under_10",
+    "under_5"
+  ],
+  "indicators": [
+    false,
+    true
+  ],
+  "data_sha256": "4d08a821ab2433b725b0c4c5f564440991c396c88d2a1b49b7c2374ce6bb0408",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "sklearn": "1.9.0",
+    "optuna": "5.0.0",
+    "shap": "0.51.0",
+    "catboost": "1.2.10",
+    "xgboost": "3.2.0",
+    "nbclient": "0.10.4",
+    "imblearn": "0.14.2",
+    "xlrd": "2.0.2"
+  },
+  "baseline": {
+    "LR": {
+      "C": 1.0
+    },
+    "RF": {
+      "n_estimators": 500,
+      "max_depth": 5,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt"
+    },
+    "CatBoost": {
+      "iterations": 300,
+      "depth": 4,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 3.0
+    },
+    "XGBoost": {
+      "n_estimators": 300,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "min_child_weight": 1.0,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "reg_lambda": 1.0,
+      "reg_alpha": 0.0
+    }
+  },
+  "selection": "max mean inner AP corrected; tie 1e-6 min Brier then LR RF CatBoost XGBoost, then under_10 before under_5",
+  "primary": "selection among undersampled real branches; all_real matched tuned control",
+  "threshold": "max balanced accuracy inner OOF corrected; ties greater recall",
+  "strata": "vascular group crossed with ages <60, 60..74, >=75; proportional survivor quotas with minimum one per nonempty stratum and largest remainder",
+  "undersampling": "without replacement, all deaths retained; survivors min(available,ratio*deaths), ratios 10 and 5",
+  "preprocessing": "fit imputation/scaling/encoder only on retained train",
+  "probabilities": "r_s*p_raw/(1-p_raw+r_s*p_raw), r_s=train survivor inclusion rate by stratum; raw predictions retained; not guaranteed calibration",
+  "spaces": {
+    "LR": "C log .001..100",
+    "RF": "trees200..800 step100;depth2..8;leaf1,2,4,8,16;features sqrt,.5,1",
+    "CatBoost": "iterations100..800 step100;depth2..6;lr log .01...2;l2 log .01..100",
+    "XGBoost": "trees100..800 step100;depth1..5;lr log .01...2;child1..20;sub/col .6..1;lambda log .001..100;alpha0..5"
+  },
+  "target_author_clarification": "анкета contains expanded hospital outcomes; 55 death marks include overlap; not union with old endpoint",
+  "numeric_parser": "Excel 1900 serial restored for date-like numerical cells; five audited repairs",
+  "endpoint_version": "questionnaire_16.09.2026_confirmed_23.10.2026",
+  "training_code_sha256": "7d8b8f049feb969a6520f932f500975dafe31b1b596183d878ce2d92864005ee",
+  "run_id": "hospital_updated55_v4_6e3c5bd8fdca"
+}

@@ -1,0 +1,184 @@
+{
+  "model": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 4,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 600,
+    "n_jobs": 2,
+    "oob_score": false,
+    "random_state": 12025,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "preprocessor": {
+    "n_jobs": null,
+    "remainder": "drop",
+    "sparse_threshold": 0,
+    "transformer_weights": null,
+    "transformers": [
+      [
+        "numeric",
+        "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median'))])",
+        [
+          "age",
+          "tag",
+          "crp",
+          "grace"
+        ]
+      ],
+      [
+        "categorical",
+        "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True,\n                               strategy='most_frequent')),\n                ('onehot',\n                 OneHotEncoder(categories=[[0, 1], [0, 1], [0, 1], [0, 1],\n                                           [1, 2, 3, 4], [0, 1], [0, 1], [0, 1],\n                                           [0, 1], [0, 1], [0, 1]],\n                               handle_unknown='ignore', sparse_output=False))])",
+        [
+          "male",
+          "mi",
+          "st_elevation",
+          "ms",
+          "killip",
+          "low_ef",
+          "ckd",
+          "pre_tlt",
+          "af",
+          "pci",
+          "diabetes"
+        ]
+      ],
+      [
+        "missing",
+        "MissingIndicator(error_on_new=False, features='all')",
+        [
+          "age",
+          "male",
+          "mi",
+          "st_elevation",
+          "tag",
+          "ms",
+          "killip",
+          "low_ef",
+          "crp",
+          "ckd",
+          "pre_tlt",
+          "af",
+          "pci",
+          "grace",
+          "diabetes"
+        ]
+      ]
+    ],
+    "verbose": false,
+    "verbose_feature_names_out": true,
+    "numeric": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median'))])",
+    "categorical": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True,\n                               strategy='most_frequent')),\n                ('onehot',\n                 OneHotEncoder(categories=[[0, 1], [0, 1], [0, 1], [0, 1],\n                                           [1, 2, 3, 4], [0, 1], [0, 1], [0, 1],\n                                           [0, 1], [0, 1], [0, 1]],\n                               handle_unknown='ignore', sparse_output=False))])",
+    "missing": "MissingIndicator(error_on_new=False, features='all')",
+    "numeric__memory": null,
+    "numeric__steps": [
+      [
+        "impute",
+        "SimpleImputer(keep_empty_features=True, strategy='median')"
+      ]
+    ],
+    "numeric__transform_input": null,
+    "numeric__verbose": false,
+    "numeric__impute": "SimpleImputer(keep_empty_features=True, strategy='median')",
+    "numeric__impute__add_indicator": false,
+    "numeric__impute__copy": true,
+    "numeric__impute__fill_value": null,
+    "numeric__impute__keep_empty_features": true,
+    "numeric__impute__missing_values": NaN,
+    "numeric__impute__strategy": "median",
+    "categorical__memory": null,
+    "categorical__steps": [
+      [
+        "impute",
+        "SimpleImputer(keep_empty_features=True, strategy='most_frequent')"
+      ],
+      [
+        "onehot",
+        "OneHotEncoder(categories=[[0, 1], [0, 1], [0, 1], [0, 1], [1, 2, 3, 4], [0, 1],\n                          [0, 1], [0, 1], [0, 1], [0, 1], [0, 1]],\n              handle_unknown='ignore', sparse_output=False)"
+      ]
+    ],
+    "categorical__transform_input": null,
+    "categorical__verbose": false,
+    "categorical__impute": "SimpleImputer(keep_empty_features=True, strategy='most_frequent')",
+    "categorical__onehot": "OneHotEncoder(categories=[[0, 1], [0, 1], [0, 1], [0, 1], [1, 2, 3, 4], [0, 1],\n                          [0, 1], [0, 1], [0, 1], [0, 1], [0, 1]],\n              handle_unknown='ignore', sparse_output=False)",
+    "categorical__impute__add_indicator": false,
+    "categorical__impute__copy": true,
+    "categorical__impute__fill_value": null,
+    "categorical__impute__keep_empty_features": true,
+    "categorical__impute__missing_values": NaN,
+    "categorical__impute__strategy": "most_frequent",
+    "categorical__onehot__categories": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "categorical__onehot__drop": null,
+    "categorical__onehot__dtype": "<class 'numpy.float64'>",
+    "categorical__onehot__feature_name_combiner": "concat",
+    "categorical__onehot__handle_unknown": "ignore",
+    "categorical__onehot__max_categories": null,
+    "categorical__onehot__min_frequency": null,
+    "categorical__onehot__sparse_output": false,
+    "missing__error_on_new": false,
+    "missing__features": "all",
+    "missing__missing_values": NaN,
+    "missing__sparse": "auto"
+  },
+  "run_id": "oks_crp_indicator_restored_v3_2b854cfe4530",
+  "seed_final": 12025,
+  "excluded_missing_indicators": [],
+  "missing_crp_enabled": true
+}

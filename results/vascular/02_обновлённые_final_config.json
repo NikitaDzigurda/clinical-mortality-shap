@@ -1,0 +1,295 @@
+{
+  "run_id": "hospital_updated55_v4_6e3c5bd8fdca",
+  "selection": {
+    "family": "XGBoost",
+    "config": {
+      "strategy": "under_5",
+      "indicators": true,
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.012353697549496128,
+        "min_child_weight": 4.356280496992935,
+        "subsample": 0.9937545448446062,
+        "colsample_bytree": 0.785660124882765,
+        "reg_lambda": 41.870079380445254,
+        "reg_alpha": 3.3383426231055866
+      }
+    },
+    "inner_AP": 0.194629386543086,
+    "inner_Brier": 0.08848118233977127,
+    "threshold": 0.09071887122396918,
+    "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_5_XGBoost",
+    "best_trial": 32,
+    "completed": 50
+  },
+  "all_real_control_selection": {
+    "family": "CatBoost",
+    "config": {
+      "strategy": "all_real",
+      "indicators": false,
+      "params": {
+        "iterations": 100,
+        "depth": 3,
+        "learning_rate": 0.016069011188659957,
+        "l2_leaf_reg": 0.0700085127088407
+      }
+    },
+    "inner_AP": 0.15863715877266912,
+    "inner_Brier": 0.09026305635803122,
+    "threshold": 0.11976306741257388,
+    "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_all_real_CatBoost",
+    "best_trial": 17,
+    "completed": 50
+  },
+  "all_families": [
+    {
+      "family": "LR",
+      "config": {
+        "strategy": "all_real",
+        "indicators": false,
+        "params": {
+          "C": 46.72991733221039
+        }
+      },
+      "inner_AP": 0.15335465609679047,
+      "inner_Brier": 0.0969020155644666,
+      "threshold": 0.05150532306269701,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_all_real_LR",
+      "best_trial": 46,
+      "completed": 50
+    },
+    {
+      "family": "LR",
+      "config": {
+        "strategy": "under_10",
+        "indicators": false,
+        "params": {
+          "C": 46.72991733221039
+        }
+      },
+      "inner_AP": 0.15335465609679047,
+      "inner_Brier": 0.0969020155644666,
+      "threshold": 0.05150532306269701,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_10_LR",
+      "best_trial": 46,
+      "completed": 50
+    },
+    {
+      "family": "LR",
+      "config": {
+        "strategy": "under_5",
+        "indicators": true,
+        "params": {
+          "C": 0.0010632823499947064
+        }
+      },
+      "inner_AP": 0.17106282877449674,
+      "inner_Brier": 0.0899042968348928,
+      "threshold": 0.09953837600777854,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_5_LR",
+      "best_trial": 43,
+      "completed": 50
+    },
+    {
+      "family": "RF",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "n_estimators": 200,
+          "max_depth": 2,
+          "min_samples_leaf": 16,
+          "max_features": 0.5
+        }
+      },
+      "inner_AP": 0.12898849747172192,
+      "inner_Brier": 0.08981610088820086,
+      "threshold": 0.08570494331666872,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_all_real_RF",
+      "best_trial": 10,
+      "completed": 50
+    },
+    {
+      "family": "RF",
+      "config": {
+        "strategy": "under_10",
+        "indicators": true,
+        "params": {
+          "n_estimators": 200,
+          "max_depth": 2,
+          "min_samples_leaf": 16,
+          "max_features": 0.5
+        }
+      },
+      "inner_AP": 0.12898849747172192,
+      "inner_Brier": 0.08981610088820086,
+      "threshold": 0.08570494331666872,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_10_RF",
+      "best_trial": 10,
+      "completed": 50
+    },
+    {
+      "family": "RF",
+      "config": {
+        "strategy": "under_5",
+        "indicators": false,
+        "params": {
+          "n_estimators": 400,
+          "max_depth": 2,
+          "min_samples_leaf": 16,
+          "max_features": "sqrt"
+        }
+      },
+      "inner_AP": 0.15032100509730206,
+      "inner_Brier": 0.08919752283773712,
+      "threshold": 0.09596201048712046,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_5_RF",
+      "best_trial": 24,
+      "completed": 50
+    },
+    {
+      "family": "CatBoost",
+      "config": {
+        "strategy": "all_real",
+        "indicators": false,
+        "params": {
+          "iterations": 100,
+          "depth": 3,
+          "learning_rate": 0.016069011188659957,
+          "l2_leaf_reg": 0.0700085127088407
+        }
+      },
+      "inner_AP": 0.15863715877266912,
+      "inner_Brier": 0.09026305635803122,
+      "threshold": 0.11976306741257388,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_all_real_CatBoost",
+      "best_trial": 17,
+      "completed": 50
+    },
+    {
+      "family": "CatBoost",
+      "config": {
+        "strategy": "under_10",
+        "indicators": false,
+        "params": {
+          "iterations": 100,
+          "depth": 3,
+          "learning_rate": 0.016069011188659957,
+          "l2_leaf_reg": 0.0700085127088407
+        }
+      },
+      "inner_AP": 0.15863715877266912,
+      "inner_Brier": 0.09026305635803122,
+      "threshold": 0.11976306741257388,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_10_CatBoost",
+      "best_trial": 17,
+      "completed": 50
+    },
+    {
+      "family": "CatBoost",
+      "config": {
+        "strategy": "under_5",
+        "indicators": true,
+        "params": {
+          "iterations": 100,
+          "depth": 2,
+          "learning_rate": 0.010066162973687297,
+          "l2_leaf_reg": 6.564519578974245
+        }
+      },
+      "inner_AP": 0.16145169562141226,
+      "inner_Brier": 0.09315054549122588,
+      "threshold": 0.16023461200706832,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_5_CatBoost",
+      "best_trial": 36,
+      "completed": 50
+    },
+    {
+      "family": "XGBoost",
+      "config": {
+        "strategy": "all_real",
+        "indicators": true,
+        "params": {
+          "n_estimators": 400,
+          "max_depth": 2,
+          "learning_rate": 0.14446385094382586,
+          "min_child_weight": 6.200352300715794,
+          "subsample": 0.9608125755450325,
+          "colsample_bytree": 0.6623811578719285,
+          "reg_lambda": 7.366379560900058,
+          "reg_alpha": 3.6665356054835305
+        }
+      },
+      "inner_AP": 0.14972394747757473,
+      "inner_Brier": 0.09199687742935131,
+      "threshold": 0.05776011571288109,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_all_real_XGBoost",
+      "best_trial": 20,
+      "completed": 50
+    },
+    {
+      "family": "XGBoost",
+      "config": {
+        "strategy": "under_10",
+        "indicators": true,
+        "params": {
+          "n_estimators": 400,
+          "max_depth": 2,
+          "learning_rate": 0.14446385094382586,
+          "min_child_weight": 6.200352300715794,
+          "subsample": 0.9608125755450325,
+          "colsample_bytree": 0.6623811578719285,
+          "reg_lambda": 7.366379560900058,
+          "reg_alpha": 3.6665356054835305
+        }
+      },
+      "inner_AP": 0.14972394747757473,
+      "inner_Brier": 0.09199687742935131,
+      "threshold": 0.05776011571288109,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_10_XGBoost",
+      "best_trial": 20,
+      "completed": 50
+    },
+    {
+      "family": "XGBoost",
+      "config": {
+        "strategy": "under_5",
+        "indicators": true,
+        "params": {
+          "n_estimators": 400,
+          "max_depth": 3,
+          "learning_rate": 0.012353697549496128,
+          "min_child_weight": 4.356280496992935,
+          "subsample": 0.9937545448446062,
+          "colsample_bytree": 0.785660124882765,
+          "reg_lambda": 41.870079380445254,
+          "reg_alpha": 3.3383426231055866
+        }
+      },
+      "inner_AP": 0.194629386543086,
+      "inner_Brier": 0.08848118233977127,
+      "threshold": 0.09071887122396918,
+      "study_name": "hospital_updated55_v4_6e3c5bd8fdca_final_under_5_XGBoost",
+      "best_trial": 32,
+      "completed": 50
+    }
+  ],
+  "features": [
+    "age_years",
+    "ef_percent",
+    "creatinine_value",
+    "total_cholesterol",
+    "ldl_mmol_l",
+    "glucose_value",
+    "crp_value",
+    "egfr_value",
+    "bmi",
+    "female",
+    "prior_vascular_surgery",
+    "mi_history",
+    "stroke_history",
+    "vascular_group"
+  ],
+  "interpretation": "balanced real-data artifact; independent quality belongs to nested selector"
+}

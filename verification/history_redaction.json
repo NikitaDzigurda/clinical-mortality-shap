@@ -1,0 +1,28 @@
+{
+  "changes": [
+    {
+      "file": "notebooks/history/acs/Analytics_1.ipynb",
+      "removed_name_literals": 1
+    },
+    {
+      "file": "notebooks/history/vascular/Госпитальные_исходы_предобработка_и_первичный_анализ.ipynb",
+      "removed_name_literals": 4
+    },
+    {
+      "file": "notebooks/history/vascular/EDA_test.ipynb",
+      "removed_name_literals": 4
+    }
+  ],
+  "method": "Proper-name triples and surname-with-initials replaced in history source; outputs already cleared",
+  "note": "Historical notebooks document logic and do not include private source tables",
+  "additional_two_part_names": [
+    {
+      "file": "notebooks/history/vascular/Госпитальные_исходы_предобработка_и_первичный_анализ.ipynb",
+      "additional_removed_name_literals": 4
+    },
+    {
+      "file": "notebooks/history/vascular/EDA_test.ipynb",
+      "additional_removed_name_literals": 2
+    }
+  ]
+}
